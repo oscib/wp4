@@ -1,0 +1,1553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exporter for FSQM Pro\n"
+"POT-Creation-Date: 2014-04-21 00:13+0530\n"
+"PO-Revision-Date: 2014-04-21 00:13+0530\n"
+"Last-Translator: Swashata Ghosh <swashata4u@gmail.com>\n"
+"Language-Team: iPanelThemes <swashata@intechgrity.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:28
+msgid "IPT FSQM Export Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:28
+msgid "Export Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:33
+msgid ""
+"Exporter for FSQM Pro <span class=\"icon-arrow-right-2\"></span> Export "
+"Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:65
+msgid "Invalid form ID Provided"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:72
+msgid "Not enough data to populate report. Please be patient."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:92
+msgid "Invalid report type selected"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:111
+msgid "Complete"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:112
+msgid "Please wait &hellip;"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:141
+#: ../classes/class-ipt-fsqm-exp-admin.php:297
+#: ../classes/class-ipt-fsqm-exp-admin.php:404
+#: ../classes/class-ipt-fsqm-exp-admin.php:565
+#: ../classes/class-ipt-fsqm-exp-admin.php:760
+msgid "Overview"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:143
+msgid ""
+"This page provides a nice way to generate and export reports for a "
+"particular form."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:144
+#: ../classes/class-ipt-fsqm-exp-admin.php:407
+msgid ""
+"This part of Exporter for FSQM Pro works like a wizard which will guide you "
+"through the procedure."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:145
+#: ../classes/class-ipt-fsqm-exp-admin.php:408
+msgid "Please check other help items for more information."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:149
+#: ../classes/class-ipt-fsqm-exp-admin.php:412
+msgid "Selecting Form"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:151
+#: ../classes/class-ipt-fsqm-exp-admin.php:414
+msgid "In this page you have the following options to get started."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:153
+#: ../classes/class-ipt-fsqm-exp-admin.php:416
+msgid ""
+"<strong>Select Form:</strong> Select the form for which you want to generate "
+"the report."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:154
+msgid "<strong>Report Type:</strong> Please select the type of the report."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:155
+#: ../classes/class-ipt-fsqm-exp-admin.php:417
+msgid ""
+"<strong>Server Load:</strong> Select the load on your server. For shared "
+"hosts, Medium Load is recommended."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:156
+#: ../classes/class-ipt-fsqm-exp-admin.php:419
+msgid "<strong>Custom Date Range:</strong> Tick and select a range of date."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:158
+#: ../classes/class-ipt-fsqm-exp-admin.php:421
+msgid ""
+"Once done, simply click on the <strong>Select Questions</strong> button."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:162
+#: ../classes/class-ipt-fsqm-exp-admin.php:425
+msgid "Selecting Questions"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:164
+#: ../classes/class-ipt-fsqm-exp-admin.php:427
+msgid ""
+"From this page, you will be able to select questions for which you want to "
+"generate the report."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:166
+#: ../classes/class-ipt-fsqm-exp-admin.php:429
+msgid ""
+"<strong>Select the Multiple Choice Type Questions:</strong> This will list "
+"down all the MCQs in your form in proper order. Select the one you like."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:167
+msgid ""
+"<strong>Select the Feedback Questions:</strong> This will list down all the "
+"feedbacks in your form in proper order. Select the one you like."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:173
+msgid "Generate Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:175
+msgid ""
+"Now all you have to do it wait until the progress bar reaches 100%. Once "
+"done, it will show you the download buttons using which you can download the "
+"report in desired format."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:179
+#: ../classes/class-ipt-fsqm-exp-admin.php:333
+#: ../classes/class-ipt-fsqm-exp-admin.php:441
+#: ../classes/class-ipt-fsqm-exp-admin.php:607
+#: ../classes/class-ipt-fsqm-exp-admin.php:778
+msgid "For more information:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:180
+#: ../classes/class-ipt-fsqm-exp-admin.php:334
+#: ../classes/class-ipt-fsqm-exp-admin.php:442
+#: ../classes/class-ipt-fsqm-exp-admin.php:608
+#: ../classes/class-ipt-fsqm-exp-admin.php:779
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Documentation</a>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:181
+#: ../classes/class-ipt-fsqm-exp-admin.php:335
+#: ../classes/class-ipt-fsqm-exp-admin.php:443
+#: ../classes/class-ipt-fsqm-exp-admin.php:609
+#: ../classes/class-ipt-fsqm-exp-admin.php:780
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Support Forums</a>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:204
+msgid "Successfully deleted the reports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:208
+msgid "Please select an action"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:212
+msgid "Successfully deleted the report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:216
+msgid "Please select some reports to perform the action"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:220
+msgid "Could not delete the report."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:225
+msgid "IPT FSQM View all Reports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:225
+msgid "View all Reports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:232
+msgid ""
+"Exporter for FSQM Pro <span class=\"icon-arrow-right-2\"></span> Persistent "
+"Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:232
+msgid "Go Back"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:236
+msgid ""
+"Exporter for FSQM Pro <span class=\"icon-arrow-right-2\"></span> View all "
+"Reports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:236
+#: ../classes/class-ipt-fsqm-exp-admin.php:492
+msgid "Add New"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:246
+msgid "View and/or Delete Reports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:271
+#: ../classes/class-ipt-fsqm-exp-admin.php:280
+#: ../classes/class-ipt-fsqm-exp-admin.php:526
+#: ../classes/class-ipt-fsqm-exp-admin.php:535
+#: ../classes/class-ipt-fsqm-exp-export-api.php:68
+#: ../classes/class-ipt-fsqm-exp-export-api.php:74
+#: ../classes/class-ipt-fsqm-exp-export-api.php:97
+#: ../classes/class-ipt-fsqm-exp-export-api.php:102
+#: ../classes/class-ipt-fsqm-exp-export-api.php:107
+#: ../classes/class-ipt-fsqm-exp-export-api.php:190
+#: ../classes/class-ipt-fsqm-exp-export-api.php:195
+#: ../classes/class-ipt-fsqm-exp-export-api.php:201
+#: ../classes/class-ipt-fsqm-exp-export-api.php:463
+#: ../classes/class-ipt-fsqm-exp-export-api.php:466
+#: ../classes/class-ipt-fsqm-exp-export-api.php:482
+#: ../classes/class-ipt-fsqm-exp-export-api.php:490
+#: ../classes/class-ipt-fsqm-exp-export-api.php:505
+#: ../classes/class-ipt-fsqm-exp-export-api.php:541
+#: ../classes/class-ipt-fsqm-exp-export-api.php:736
+#: ../classes/class-ipt-fsqm-exp-export-api.php:740
+#: ../classes/class-ipt-fsqm-exp-export-api.php:746
+#: ../classes/class-ipt-fsqm-exp-export-api.php:775
+#: ../classes/class-ipt-fsqm-exp-export-api.php:780
+#: ../classes/class-ipt-fsqm-exp-export-api.php:800
+#: ../classes/class-ipt-fsqm-exp-export-api.php:803
+#: ../classes/class-ipt-fsqm-exp-export-api.php:881
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1025
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:100
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:299
+msgid ""
+"This screen provides access to all of your reports. You can customize the "
+"display of this screen to suit your workflow."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:300
+msgid ""
+"By default, this screen will show all the reports. Please check the Screen "
+"Content for more information."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:304
+#: ../classes/class-ipt-fsqm-exp-admin.php:572
+msgid "Screen Content"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:306
+#: ../classes/class-ipt-fsqm-exp-admin.php:574
+msgid ""
+"You can customize the display of this screen&#8217;s contents in a number of "
+"ways:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:308
+msgid "You can sort reports based on created, start date or end date."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:309
+msgid ""
+"You can hide/display columns based on your needs and decide how many reports "
+"to list per screen using the Screen Options tab."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:314
+#: ../classes/class-ipt-fsqm-exp-admin.php:582
+msgid "Available Actions"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:316
+msgid ""
+"Hovering over a row in the reports list will display action links that allow "
+"you to manage your reports. You can perform the following actions:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:318
+msgid ""
+"<strong>View Persistent Report</strong> will take you to a page from where "
+"you can see the report in the same format as <strong>FSQM Pro > Report & "
+"Analysis</strong>."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:319
+msgid ""
+"<strong>Delete</strong> removes your report from this list as well as from "
+"the database along with all the downloadable files under it. You can not "
+"restore it back, so make sure you want to delete it before you do."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:324
+#: ../classes/class-ipt-fsqm-exp-admin.php:591
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:326
+#: ../classes/class-ipt-fsqm-exp-admin.php:593
+msgid "There are a number of bulk actions available. Here are the details."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:328
+msgid ""
+"<strong>Delete</strong>. This will permanently delete the ticked reports "
+"from the database along with all the downloadable files under it."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:340
+#: ../classes/class-ipt-fsqm-exp-admin.php:812
+msgid "Downloads"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:342
+msgid ""
+"On the right side of the table, you will see a number of buttons for "
+"downloading the reports in various format. Clicking any of them will prompt "
+"you to save the report in the mentioned format."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:344
+msgid "XLSX:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:344
+msgid ""
+"The report will be converted into an XLSX file. Each of the questions will "
+"be created in a different worksheet. For all MCQs, a corresponding chart "
+"will be added."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:345
+msgid "PDF:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:345
+msgid ""
+"The report will be converted into a PDF file. Charts will be converted into "
+"images and will be embedded accordingly."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:346
+msgid "XLS:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:346
+msgid ""
+"The report will be converted into an XLS file. Each of the questions will be "
+"created in a different worksheet. For MCQs, charts will be converted into "
+"images and will be embedded accordingly."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:347
+msgid "HTML:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:347
+msgid ""
+"The report will be converted into an HTML file. Charts will be converted "
+"into images and will be embedded accordingly."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:349
+msgid ""
+"No matter on what format you download, it will be zipped. You have to open "
+"the ZIP file using some compression utility in order to view the files "
+"inside."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:359
+msgid "Reports per page"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:388
+msgid "IPT FSQM Export CSV"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:388
+msgid "Export to CSV"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:394
+msgid ""
+"Exporter for FSQM Pro <span class=\"icon-arrow-right-2\"></span> Export to "
+"CSV"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:406
+msgid ""
+"This page provides a nice way to generate and export csv for a particular "
+"form."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:418
+msgid ""
+"<strong>Customize CSV Format:</strong> Here you can change the Field "
+"Delimiter, Filed Enclosure, Multiple Option Delimiter, Range Delimiter and "
+"Multiple Row Delimiter. For maximum compatibility we recommend leaving Field "
+"Delimiter and Field Enclosure the way it is."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:430
+msgid ""
+"<strong>Select the Freetype Questions:</strong> This will list down all the "
+"freetype questions in your form in proper order. Select the one you like."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:431
+msgid ""
+"<strong>Select Other Elements:</strong> This will list down all the other "
+"questions in your form in proper order. Select the one you like."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:436
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:511
+msgid "Generate CSV"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:438
+msgid ""
+"Now all you have to do it wait until the progress bar reaches 100%. Once "
+"done, it will show you the download buttons using which you can download the "
+"csv file."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:466
+msgid "Successfully deleted the csv exports."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:470
+msgid "Please select an action."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:474
+msgid "Successfully deleted the csv export."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:478
+msgid "Please select some csv exports to perform the action."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:482
+msgid "Could not delete the csv export."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:487
+msgid "IPT FSQM View all CSV Exports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:487
+msgid "View all CSV Exports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:492
+msgid ""
+"Exporter for FSQM Pro <span class=\"icon-arrow-right-2\"></span> View all "
+"CSV Exports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:502
+msgid "Download and/or Delete CSV Exports"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:557
+msgid "CSV exports per page"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:567
+msgid ""
+"This screen provides access to all of your CSV Exports. You can customize "
+"the display of this screen to suit your workflow."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:568
+msgid ""
+"By default, this screen will show all the CSV Exports. Please check the "
+"Screen Content for more information."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:576
+msgid "You can sort CSV Exports based on created, start date or end date."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:577
+msgid ""
+"You can hide/display columns based on your needs and decide how many CSV "
+"Exports to list per screen using the Screen Options tab."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:584
+msgid ""
+"Hovering over a row in the CSV Exports list will display action links that "
+"allow you to manage your CSV Exports. You can perform the following actions:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:586
+msgid ""
+"<strong>Delete</strong> removes your CSV Export from this list as well as "
+"from the database along with all the downloadable files under it. You can "
+"not restore it back, so make sure you want to delete it before you do."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:595
+msgid ""
+"<strong>Delete</strong>. This will permanently delete the ticked CSV Exports "
+"from the database along with all the downloadable files under it."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:601
+#: ../classes/class-ipt-fsqm-exp-admin.php:975
+#: ../classes/class-ipt-fsqm-exp-export-api.php:163
+msgid "Download"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:603
+msgid ""
+"Simply click on the <strong>Download CSV</strong> button on the right side "
+"of the table. This will prompt you to save the csv file."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:629
+msgid "Exporter for IPT FSQM - Settings"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:629
+msgid "Exporter Settings"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:635
+msgid ""
+"Exporter for FSQM Pro <span class=\"icon-arrow-right-2\"></span> Settings"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:644
+msgid "Modify Exporter Settings"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:650
+msgid "PDF/HTML Header"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:654
+msgid ""
+"You can insert HTML to the header of your PDFs or HTMLs the exporter "
+"generates."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:657
+msgid "PDF/HTML Footer"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:661
+msgid ""
+"You can insert HTML to the footer of your PDFs or HTMLs the exporter "
+"generates."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:664
+msgid "CSS Style"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:665
+msgid "Please fill in some style"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:668
+msgid ""
+"If you know about CSS then you can style your HTML or PDF exports here. The "
+"default code is as follows:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:705
+msgid "Set PHP Memory (in Megabytes)"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:706
+#: ../classes/class-ipt-fsqm-exp-admin.php:711
+msgid "Disabled"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:707
+msgid ""
+"Use this to increase your PHP memory on the fly. Please make sure you have "
+"more or at least same physical memory before setting it to a higher value. "
+"It may not work at all for shared hosts. For more, please consult the "
+"documentation."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:710
+msgid "Set PHP Execution time (in Seconds)"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:712
+msgid ""
+"Use this to increase your PHP execution_time on the fly. For more, please "
+"consult the documentation."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:715
+msgid "Show Download as PDF on Trackback Pages"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:716
+#: ../classes/class-ipt-fsqm-exp-admin.php:721
+msgid "Yes"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:716
+#: ../classes/class-ipt-fsqm-exp-admin.php:721
+msgid "No"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:717
+msgid ""
+"If you want your users to download PDFs from the trackback pages, then turn "
+"this feature on. Please note that only the summarized format is "
+"downloadable, not the whole form."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:720
+msgid "Delete all Data when uninstalling plugin"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:722
+msgid ""
+"If you want to completely wipe out all data when uninstalling, then have "
+"this enabled. Keep it disabled, if you are planning to update the plugin by "
+"uninstalling and then reinstalling."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:729
+msgid "Save Changes"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:729
+msgid "Reset"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:762
+msgid "This screen provides customization options for the plugin."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:763
+msgid ""
+"You can modify the PDF/HTML headers, footers and styles. Also, you can "
+"manage PHP resources easily through this page."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:767
+msgid "Credits"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:769
+msgid ""
+" Thank you for purchasing Exporter for FSQM Pro. The following Tools were "
+"used during the development of this project."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:771
+msgid ""
+"<a href=\"http://phpexcel.codeplex.com/\">PHPExcel</a>: We forked PHPExcel "
+"to provide the XLSX, XLS, PDF and HTML downloads."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:772
+msgid ""
+"<a href=\"http://www.mpdf1.com/mpdf/index.php\">mPDF</a>: For generating all "
+"PDFs."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:773
+msgid ""
+"<a href=\"http://jpgraph.net/\">jpGraph</a>: For rendering all static charts."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:774
+msgid ""
+"<a href=\"http://wordpress.org/\">WordPress</a>: The best platform ever."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:808
+#: ../classes/class-ipt-fsqm-exp-admin.php:971
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:616
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:726
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:906
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:908
+msgid "Name"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:809
+#: ../classes/class-ipt-fsqm-exp-admin.php:972
+msgid "Created"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:810
+#: ../classes/class-ipt-fsqm-exp-admin.php:973
+msgid "Start Date"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:811
+#: ../classes/class-ipt-fsqm-exp-admin.php:974
+msgid "End Date"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:831
+msgid "View Persistent Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:832
+#: ../classes/class-ipt-fsqm-exp-admin.php:873
+#: ../classes/class-ipt-fsqm-exp-admin.php:994
+#: ../classes/class-ipt-fsqm-exp-admin.php:1044
+msgid "Delete"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:837
+#: ../classes/class-ipt-fsqm-exp-admin.php:843
+#: ../classes/class-ipt-fsqm-exp-admin.php:850
+#: ../classes/class-ipt-fsqm-exp-admin.php:999
+#: ../classes/class-ipt-fsqm-exp-admin.php:1005
+#: ../classes/class-ipt-fsqm-exp-admin.php:1012
+msgid ", "
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:841
+#: ../classes/class-ipt-fsqm-exp-admin.php:848
+#: ../classes/class-ipt-fsqm-exp-admin.php:1003
+#: ../classes/class-ipt-fsqm-exp-admin.php:1010
+msgid "N/A"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:926
+#: ../classes/class-ipt-fsqm-exp-export-api.php:310
+msgid "You have not generated any reports yet."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:938
+#: ../classes/class-ipt-fsqm-exp-admin.php:1109
+msgid "Show all forms"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:944
+#: ../classes/class-ipt-fsqm-exp-admin.php:1115
+msgid "No Forms in the database"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:947
+#: ../classes/class-ipt-fsqm-exp-admin.php:1118
+msgid "Filter"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:953
+msgid ""
+"You can also use these reports to show persistent trends on your site. The "
+"FSQM shortcode generator button on the editor will guide you through the "
+"process."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:1019
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:552
+msgid "Download CSV"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-admin.php:1097
+msgid "You have not created any csv export yet."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:167
+msgid "Download PDF"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:302
+msgid "Select the Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:320
+msgid "Insert"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:321
+msgid "Insert Shortcodes for WP Feedback, Survey & Quiz Manager - Pro"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:321
+msgid "Back"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:350
+msgid "Exporter for FSQM Pro - Insert Persistent Trends"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:350
+msgid "Persistent Trends"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:354
+msgid ""
+"Recommended method to show trends, where instead of querying your server for "
+"the live data, one of your generated reports will be used. This saves a lot "
+"of server bandwidth and load. But please note that the report will only be "
+"as updated as your export."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:370
+msgid "Trends"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:398
+msgid "Invalid scope to call this function"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:403
+msgid "Invalid Export ID"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:525
+#: ../classes/class-ipt-fsqm-exp-export-api.php:560
+#: ../classes/class-ipt-fsqm-exp-export-api.php:911
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1083
+msgid "anonymous"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1067
+msgid " \\a\\t "
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1128
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:173
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:174
+msgid "Exporter for FSQM Pro"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1162
+#, php-format
+msgid "Current PHP version %s, required version 5.2.0."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1164
+msgid "Your server does not give PHP version information."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1169
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1172
+#, php-format
+msgid "XML Support is loaded and current LIBXML version is %s."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1174
+msgid "XML Support is loaded."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1180
+msgid "PHP ZIP extension is not loaded. Export Support Disabled."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1182
+msgid "PHP ZIP extension is loaded. Export support enabled."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1187
+msgid "PHP GD2 is not loaded. XLS, PDF and HTML support disabled."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1189
+msgid "PHP GD2 is loaded. XLS, PDF and HTML support enabled."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1196
+#, php-format
+msgid "Server status: Excellent. PHP memory limit %dMB."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1198
+#, php-format
+msgid "Server status: Good. PHP memory limit %dMB."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1200
+#, php-format
+msgid "Server status: Fair. PHP memory limit %dMB."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1202
+#, php-format
+msgid "Server status: Average. PHP memory limit %dMB."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1204
+#, php-format
+msgid "Server status: Poor. PHP memory limit %dMB."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1207
+msgid "Could not determine PHP memory limit."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1214
+#, php-format
+msgid "PHP execution time limit %dSeconds, which is excellent."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1216
+#, php-format
+msgid "PHP execution time limit %dSeconds, which is good."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1218
+#, php-format
+msgid "PHP execution time limit %dSeconds, may cause problem for PDFs."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1220
+#, php-format
+msgid "PHP execution time limit %dSeconds, may cause problem for downloads."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1223
+msgid "Could not determine PHP execution time limit."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1234
+msgid "Plugin Version"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1235
+msgid ""
+"If the Script version and DB version do not match, then deactivate the "
+"plugin and reactivate again. This should solve the problem. If the problem "
+"persists then contact the developer."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1239
+msgid "Thank you for purchasing Exporter for FSQM Pro extension."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1240
+#, php-format
+msgid "<strong>Plugin Version:</strong> <em>%s(Script)/%s(DB)</em>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1241
+msgid "Server Status"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1265
+msgid "Available Export Formats"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1309
+msgid "Open Office XML or Excel 2007 and above"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1310
+msgid "Portable Document Format"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1311
+msgid "Excel 95 and above"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-export-api.php:1312
+msgid "HTML File"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:276
+msgid "You have not created any forms yet."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:320
+#, php-format
+msgid "%1$s (Submissions: %2$d)"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:325
+msgid "Select the Form and Date Range"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:329
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:367
+msgid "Light Load"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:333
+msgid "Moderate Load (Recommended for Shared Hostings)"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:337
+msgid "Heavy Load (Recommended for VPS or Dedicated Hostings)"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:343
+msgid "Not enough data for any of the forms to process the export."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:348
+msgid "Select Form"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:353
+msgid "Please select the form whose report you want to generate."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:358
+msgid "Server Load"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:365
+msgid "Please select the calculation load for the queries."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:367
+msgid "15 queries per hit. Use this if you are experiencing problems."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:368
+msgid "Medium Load"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:368
+msgid ""
+"30 queries per hit. Recommended for most of the shared hosting environments."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:369
+msgid "Heavy Load"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:369
+msgid "50 queries per hit. Use only if you own a VPS or Dedicated Hosting."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:371
+msgid ""
+"It is recommended to go with Medium Load for most of the shared servers."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:377
+msgid "Customize CSV Format"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:380
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:444
+msgid "YES"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:380
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:444
+msgid "NO"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:383
+msgid "Tick to enter customize the CSV format for this export."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:388
+msgid "CSV Field Delimiter"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:394
+msgid ""
+"Enter the CSV field delimiter. Only one character allowed. It will be "
+"stripped if given more than one character. Default is <code>,</code>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:399
+msgid "CSV Field Enclosure"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:405
+msgid ""
+"Enter the CSV field Enclosure. Only one character allowed. It will be "
+"stripped if given more than one character. Default is <code>\"</code>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:410
+msgid "CSV Field Multiple Option Delimiter"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:416
+msgid ""
+"Enter the CSV field Multiple Option Delimiter (For questions like Multiple "
+"Options, Matrix etc). Default is <code>::</code>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:421
+msgid "CSV Field Range Delimiter"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:427
+msgid ""
+"Enter the CSV field Range Delimiter (For questions like Grading, Ranges "
+"etc). Default is <code>#</code>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:432
+msgid "CSV Field Multiple Row Delimiter"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:438
+msgid ""
+"Enter the CSV field Multiple Row Delimiter (For questions like Grading, "
+"Spinners, Matrix etc). Default is <code>~</code>"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:442
+msgid "Custom Date Range"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:447
+msgid "Tick to enter custom date range for the report."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:452
+msgid "Start Date:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:459
+msgid "Please select the start date and time, inclusive"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:465
+msgid "End Date:"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:472
+msgid "Please select the end date and time, inclusive"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:482
+msgid "Select Questions"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:503
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:535
+msgid "Invalid form ID provided."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:541
+msgid "Not enough data to populate the CSV. Please be patient."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:546
+msgid "No questions selected for export."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:568
+msgid "Successfully created the CSV file"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:568
+msgid "Generating CSV"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:615
+msgid "Multiple Choice Type Questions"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:616
+msgid "Feedback Type Questions"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:617
+msgid "Other Elements"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:621
+msgid "Toggle All"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:625
+msgid "Invalid Form ID Supplied. Please press the back button and check again."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:627
+#, php-format
+msgid "No %s found on the form you have selected."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:735
+msgid "Export and/or Form Deleted."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:735
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:739
+msgid "Error - Exporter for FSQM Pro"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:739
+msgid "CSV File deleted."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:764
+#, php-format
+msgid "Permission Error: For creating directory under %s"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:806
+msgid "Invalid Form ID provided."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:817
+msgid "Invalid RAW ID provided."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:859
+msgid "Submission ID"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:860
+msgid "User ID"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:861
+msgid "Submission Date and Time"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:862
+msgid "First Name"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:863
+msgid "Last Name"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:864
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:726
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:906
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:908
+msgid "Email"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:888
+msgid "IP Address"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:894
+msgid "Score"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:895
+msgid "Max Score"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:898
+msgid "Link"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:970
+msgid "Invalid Element. Type not set."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:983
+#, php-format
+msgid "Invalid Callback for CSV Export: %s"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-raw.php:1099
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:664
+msgid "No files uploaded."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:54
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:162
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:165
+msgid ""
+"Can not create proper directory. Please check your upload directory has the "
+"right permissions."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:89
+msgid "Could not load jpgraph library"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:131
+msgid "Peak Memory Usage"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:132
+msgid "Total Memory Usage"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:133
+msgid "File Written in"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:134
+msgid "Execution Time"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:176
+#, php-format
+msgid "Report generated on %s | %s"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:176
+msgid "\\,\\ \\a\\t "
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:177
+msgid "FSQM Report"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:188
+#, php-format
+msgid "Survey%d"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:206
+#, php-format
+msgid "Feedback%d"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:231
+msgid "Could not load mPDF library"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:276
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:324
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:805
+msgid "Value"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:276
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:280
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:322
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:324
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:435
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:508
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:559
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:805
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:831
+msgid "Count"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:276
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:280
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:322
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:324
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:435
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:508
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:560
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:805
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:831
+msgid "Percent"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:280
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:322
+msgid "To"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:280
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:322
+msgid "From"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:280
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:322
+msgid "Min"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:280
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:322
+msgid "Max"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:377
+msgid "Average"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:435
+msgid "Toggle State"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:442
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:515
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:860
+msgid "Total"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:445
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:518
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:999
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:1096
+msgid "Not enough data"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:508
+msgid "Sorting Order"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:509
+msgid "Predefined Order"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:510
+msgid "Custom Orders"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:558
+msgid "Sorting Order Breakdown"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:572
+msgid "Deleted"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:616
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:726
+msgid "Date"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:616
+msgid "Uploads"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:641
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:753
+msgid "\\, "
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:647
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:760
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:922
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:928
+msgid "Click to view the complete submission."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:656
+#, php-format
+msgid "Click to download the file: %1$s."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:671
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:776
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:940
+msgid "No entries yet."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:726
+msgid "Feedback"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:726
+msgid "Phone"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:765
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:934
+msgid "Click to email the user."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:831
+msgid "Options"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:852
+msgid "Not enough data."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:906
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:908
+msgid "Reference ID / Link"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:922
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:928
+msgid "View full data"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:995
+msgid "Average / Total"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:1086
+msgid "Total / Average"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-form-elements-export-report.php:1195
+msgid "Ranges"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:41
+msgid "This plugin can not be network activated."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:45
+msgid "Can not install Exporter for FSQM Pro"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:60
+msgid ""
+"The Exporter for FSQM Pro plugin requires <strong>WP Feedback, Survey & Quiz "
+"Manager - Pro</strong> to be installed and activated."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:63
+msgid ""
+"The Exporter for FSQM Pro plugin requires PHP version greater than or equal "
+"to 5.2.x"
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:66
+msgid ""
+"The Exporter for FSQM Pro plugin requires PHP_XML extension to be loaded."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:69
+msgid ""
+"The Exporter for FSQM Pro plugin requires PHP_ZIP extension to be loaded."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:72
+msgid ""
+"The Exporter for FSQM Pro plugin requires FSQM Pro Version 2.1.6 or greater."
+msgstr ""
+
+#: ../classes/class-ipt-fsqm-exp-install.php:132
+#, php-format
+msgid "Copyright %s - %s | All rights reserved"
+msgstr ""

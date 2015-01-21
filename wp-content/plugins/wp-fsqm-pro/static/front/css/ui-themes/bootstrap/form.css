@@ -1,0 +1,475 @@
+/*
+	Document   : form
+	Created on : Aug 12, 2013, 1:04:42 AM
+	Author     : Swashata
+	Description:
+		Populates the theme bootstrap, for IPT_FSQM_Pro
+*/
+/**
+ * Three Shades : #eee #ddd #ccc #999 #333 #428bca #52a8ec
+ * UI White : #fff
+ * White : #fcfbfb
+ * Black : #333
+ * Iconbox : #000 => Shadow #fff
+ * Checkbox,Radio Border: #b2b2b2
+ */
+
+/* Text Icons */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_text_icon {
+	background-color: #ebebeb;
+	color: #333;
+	text-shadow: 0 0 1px #666;
+	border: 1px solid #adadad;
+}
+
+/*==============================================================================
+ * Typography
+ *============================================================================*/
+
+/* Heading & Paragraph */
+.ipt_uif_common.ipt-uif-custom-bootstrap {
+	color: #333;
+}
+/* Anchors */
+.ipt_uif_common.ipt-uif-custom-bootstrap a,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-widget-content a {
+	color: #428bca;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap a:hover,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-widget-content a:hover {
+	color: #2a6496;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap a:active,
+.ipt_uif_common.ipt-uif-custom-bootstrap a:visited,
+.ipt_uif_common.ipt-uif-custom-bootstrap a:focus,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-widget-content a:active,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-widget-content a:visited,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-widget-content a:focus {
+	color: #000;
+}
+
+/*==============================================================================
+ * Tabs
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span {
+	color: #428bca;
+}
+
+/*==============================================================================
+ * Main Heading
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider:before {
+	background-color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider span.ipt_uif_divider_text:before,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider span.ipt_uif_divider_text:after {
+	background-color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #ddd;
+	color: #000;
+	text-shadow: 0 0 2px #666;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider span.ipt_uif_divider_text span.subtitle {
+	color: #999;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	background: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text {
+	color: #333;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text .ipt_uif_text_icon {
+	color: #333;
+	text-shadow: 0 0 1px #fff;
+	background-color: #eee;
+	border-color: #ccc;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	color: #ccc;
+	background-color: #fff;
+}
+
+/*==============================================================================
+ * Container
+ *============================================================================*/
+/* Widget Boxes */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_widget_box .ui-widget-header h3 {
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+/* Boxes */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_shadow {
+	-webkit-box-shadow: 0 0 4px #666;
+	box-shadow: 0 0 4px #666;
+	background-color: #fcfbfb;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_box.colored {
+	background-color: #52a8ec;
+	color: #fff;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_box.white {
+	background-color: #fcfbfb;
+	border-color: #fff;
+}
+
+/* Fancy box */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_fancy_container {
+	border-color: #ddd;
+	background-color: #fff;
+}
+
+/* Normal Container */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_container {
+
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_container .ipt_uif_container_head {
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_container .ipt_uif_container_inner {
+	border-color: #ddd;
+	background-color: #f5f5f5;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_container .ipt_uif_container_head,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_container .ipt_uif_container_head h3,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_container .ipt_uif_container_head a {
+	color: #333;
+	text-shadow: 0 0 2px #fff;
+}
+
+/* Collapsible */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible > .ipt_uif_container_head {
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible > .ipt_uif_container_head:after {
+	background-color: #f5f5f5;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible > .ipt_uif_container_head a {
+	color: #333;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible > .ipt_uif_container_head a span.collapsible_state {
+	line-height: 2.8em;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible > .ipt_uif_container_head .ipt_uif_text_icon {
+	border: 1px solid #ddd;
+	top: -1px;
+	bottom: -1px;
+	left: -1px;
+	height: auto;
+	line-height: 1;
+	float: none;
+	margin-bottom: -2px;
+	display: inline-block;
+	padding: 0 0.2em;
+	border-radius: 4px 0 0 4px;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head a {
+	color: #333;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head .ipt_uif_text_icon {
+	border: 0 none;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*==============================================================================
+ * UL Menu
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap ul.ipt_uif_ul_menu li a.ui-button {
+	color: #333;
+	text-shadow: 0 0 2px #fff;
+	padding: 0.5em 1em;
+	line-height: 2em;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap ul.ipt_uif_ul_menu li a.ui-button span.ui-button-text {
+	line-height: inherit;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap ul.ipt_uif_ul_menu li a.ui-button:hover {
+	color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap ul.ipt_uif_ul_menu li a.ui-button:active {
+	color: #000;
+}
+
+/*==============================================================================
+ * Image Slider - nivoSlider
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_image_slider_wrap .ribbon {
+	-webkit-box-shadow: 0 3px 2px #666;
+	box-shadow: 0 3px 2px #666;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .theme-ipt-uif-imageslider .nivo-directionNav a {
+	color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .theme-ipt-uif-imageslider .nivo-directionNav a:hover {
+	color: #ccc;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .theme-ipt-uif-imageslider .nivo-directionNav a:active {
+	color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .theme-ipt-uif-imageslider .nivo-controlNav a {
+	color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .theme-ipt-uif-imageslider .nivo-controlNav a.active {
+	color: #ccc;
+}
+
+/*==============================================================================
+ * Matrix
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_matrix_container {
+	border-color: #e4e3e3;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_matrix td,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_matrix th {
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_matrix thead th,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_matrix tfoot th,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_matrix tbody th {
+	color: #333;
+}
+
+/*==============================================================================
+ * Label and Element
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_required {
+	color: #a94442;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #999;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_icon_and_form_elem_holder .ipt_uif_text_icon {
+	color: #333;
+	text-shadow: 0 0 2px #fff;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 4px 0 0 4px;
+	line-height: 2.5em;
+	-webkit-box-shadow: inset 0 0 1px #fff;
+	-moz-box-shadow: inset 0 0 1px #fff;
+	box-shadow: inset 0 0 1px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_icon_and_form_elem_holder input.ipt_uif_text {
+	padding-left: 3.8em;
+}
+/*==============================================================================
+ * UI Form Elements
+ *============================================================================*/
+/* Radio Group */
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_radio + label:before,
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_radio + label:after {
+	background-color: #fff;
+	border-color: #b2b2b2;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_radio:checked + label:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#428bca), to(#52a8ec));
+	background-image: -webkit-linear-gradient(top, #428bca, #52a8ec);
+	background-image:    -moz-linear-gradient(top, #428bca, #52a8ec);
+	background-image:     -ms-linear-gradient(top, #428bca, #52a8ec);
+	background-image:      -o-linear-gradient(top, #428bca, #52a8ec);
+	background-color: #52a8ec;
+	color: #fff;
+}
+/* Checkbox Group */
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_checkbox + label:before,
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_checkbox + label:after {
+	border-color: #b2b2b2;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_checkbox:checked + label:after {
+	background-color: #52a8ec;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#428bca), to(#52a8ec));
+	background-image: -webkit-linear-gradient(top, #428bca, #52a8ec);
+	background-image:    -moz-linear-gradient(top, #428bca, #52a8ec);
+	background-image:     -ms-linear-gradient(top, #428bca, #52a8ec);
+	background-image:      -o-linear-gradient(top, #428bca, #52a8ec);
+	color: #fff;
+}
+
+/* Toggle Button */
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_switch + label:before,
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_switch + label:after {
+	color: #fff;
+	background-color: #52a8ec;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#52a8ec), to(#428bca));
+	background-image: -webkit-linear-gradient(top, #52a8ec, #428bca);
+	background-image:    -moz-linear-gradient(top, #52a8ec, #428bca);
+	background-image:     -ms-linear-gradient(top, #52a8ec, #428bca);
+	background-image:      -o-linear-gradient(top, #52a8ec, #428bca);
+	border-radius: 17px;
+	-webkit-box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	border-bottom-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_switch + label:after {
+	background-color: #000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#353535), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #000, #353535);
+	background-image:    -moz-linear-gradient(bottom, #000, #353535);
+	background-image:     -ms-linear-gradient(bottom, #000, #353535);
+	background-image:      -o-linear-gradient(bottom, #000, #353535);
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_switch:checked + label:after {
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#b1b1b2));
+	background-image: -webkit-linear-gradient(top, #fff, #b1b1b2);
+	background-image:    -moz-linear-gradient(top, #fff, #b1b1b2);
+	background-image:     -ms-linear-gradient(top, #fff, #b1b1b2);
+	background-image:      -o-linear-gradient(top, #fff, #b1b1b2);
+}
+/* Ratings */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio:checked + label:after {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#428bca), to(#52a8ec));
+	background-image: -webkit-linear-gradient(top, #428bca, #52a8ec);
+	background-image:    -moz-linear-gradient(top, #428bca, #52a8ec);
+	background-image:     -ms-linear-gradient(top, #428bca, #52a8ec);
+	background-image:      -o-linear-gradient(top, #428bca, #52a8ec);
+	background-color: #428bca;
+}
+
+/* Star Ratings */
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:before {
+	color: #ccc;
+	border: 0 none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	color: #52a8ec;;
+}
+
+/* Text input */
+.ipt_uif_common.ipt-uif-custom-bootstrap input.ipt_uif_text:focus {
+	border-color: #52a8ec;
+}
+
+/* Text Area */
+.ipt_uif_common.ipt-uif-custom-bootstrap textarea.ipt_uif_textarea:focus {
+	border-color: #52a8ec;
+}
+
+/* Select */
+.ipt_uif_common.ipt-uif-custom-bootstrap select.ipt_uif_select {
+	border-color: #ccc;
+	border-radius: 4px;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap select.ipt_uif_select:focus {
+	border-color: #52a8ec;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6); /* Safari 4 */
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6); /* Firefox 3.6 */
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/*==============================================================================
+ * jQuery UI Sliders & Ranges
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_slider_count {
+	color: #52a8ec;
+}
+
+/*==============================================================================
+ * jQuery UI Spinners
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-spinner a.ui-spinner-button {
+	border-left-color: #ccc;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ui-spinner a.ui-spinner-button:hover {
+	border-color: #52a8ec;
+}
+/*==============================================================================
+ * Sortables
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_sortme {
+	border-color: #ccc;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_sortme_placeholder {
+	border-color: #ccc;
+}
+
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_sortme .ipt_uif_sorting_handle {
+	background-color: #eee;
+	top: -1px;
+	bottom: -1px;
+	left: -1px;
+	border: 1px solid #ccc;
+	border-radius: 4px 0 0 4px;
+}
+
+/*==============================================================================
+ * CSS 3 Spinner
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_uif_ajax_loader_inner {
+	background: transparent;
+	color: #333;
+}
+
+/*==============================================================================
+ * Preview Table
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview table {
+	border-color: #ccc;
+}
+
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview thead th,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview tfoot th,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview tr.head th {
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(top, #eee, #ddd);
+	background-image: -moz-linear-gradient(top, #eee, #ddd);
+	background-image: -o-linear-gradient(top, #eee, #ddd);
+	background-image: -ms-linear-gradient(top, #eee, #ddd);
+	background-image: linear-gradient(top, #eee, #ddd);
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview thead tr,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview tfoot tr {
+	border-color: #ccc;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview tr,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview th,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview td {
+	border-color: #ccc;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview .description {
+	color: #999;
+}
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview thead .description,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview tfoot .description,
+.ipt_uif_common.ipt-uif-custom-bootstrap .ipt_fsqm_preview tr.head .description {
+	color: #333;
+}

@@ -1,0 +1,110 @@
+.ipt_uif_front.ipt_uif_common .ipt_uif_tabs.ui-tabs .ui-tabs-nav li {
+	display: block;
+}
+.ipt_uif_front.ipt_uif_common .ipt_uif_tabs.ui-tabs .ui-tabs-nav li {
+	width: auto;
+}
+.ipt_uif_front.ipt_uif_common .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a {
+	width: auto;
+}
+
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_half {
+	width: 50%;
+}
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third {
+	width: 33.33%;
+}
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_two_third {
+	width: 66.66%;
+}
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth {
+	width: 25%;
+}
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_three_forth {
+	width: 75%;
+}
+/* Disable some inner columns */
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_column_custom,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_column_custom,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_half .ipt_uif_column_custom {
+	width: 100%;
+}
+
+/* Label & Element */
+.ipt_uif_front .ipt_uif_question .ipt_uif_question_label {
+	width: 30%;
+	margin-bottom: 0;
+}
+.ipt_uif_front .ipt_uif_question .ipt_uif_question_content {
+	float: right;
+	width: 65%;
+}
+/* Inner Labels */
+.ipt_uif_front .ipt_uif_question .ipt_uif_label_column.column_2 {
+	width: 50%;
+}
+.ipt_uif_front .ipt_uif_question .ipt_uif_label_column.column_3 {
+	width: 33.33%;
+}
+.ipt_uif_front .ipt_uif_question .ipt_uif_label_column.column_4 {
+	width: 25%;
+}
+/* Disable for some inner columns */
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_question .ipt_uif_label_column.column_2,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_question .ipt_uif_label_column.column_3,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_question .ipt_uif_label_column.column_4,
+
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_question .ipt_uif_label_column.column_2,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_question .ipt_uif_label_column.column_3,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_question .ipt_uif_label_column.column_4,
+
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_question .ipt_uif_question_label,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_question .ipt_uif_question_content,
+
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_question .ipt_uif_question_label,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_question .ipt_uif_question_content {
+	width: 100%;
+}
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_forth .ipt_uif_question .ipt_uif_question_label,
+.ipt_uif_front .ipt_uif_column_custom.ipt_uif_column_third .ipt_uif_question .ipt_uif_question_label {
+	margin-bottom: 10px;
+}
+
+/* Remove All styled elements for checkbox and radio box and star */
+.ipt_uif_front.ipt_uif_common input.ipt_uif_radio + label:before,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_radio + label:after,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_checkbox + label:before,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_checkbox + label:after,
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating input.ipt_uif_radio + label:before,
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating input.ipt_uif_radio + label:after,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_switch + label:before,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_switch + label:after {
+	display: none;
+}
+.ipt_uif_front.ipt_uif_common input.ipt_uif_radio,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_checkbox,
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating input.ipt_uif_radio,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_switch {
+	margin: 0;
+	visibility: visible;
+	float: left;
+}
+.ipt_uif_front.ipt_uif_common input.ipt_uif_radio + label
+.ipt_uif_front.ipt_uif_common input.ipt_uif_checkbox + label
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating input.ipt_uif_radio + label,
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label,
+.ipt_uif_front.ipt_uif_common .ipt_uif_label_column input + label {
+	line-height: 1;
+	width: auto;
+	margin: 0 0 0 5px;
+	padding: 0;
+	text-indent: 0;
+}
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating input.ipt_uif_radio {
+	margin: 0 5px 0 0;
+}
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating input.ipt_uif_radio + label,
+.ipt_uif_front.ipt_uif_common .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label,
+.ipt_uif_front.ipt_uif_common input.ipt_uif_switch + label {
+	display: none;
+}

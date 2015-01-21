@@ -1,0 +1,475 @@
+/*
+	Document   : form
+	Created on : Aug 12, 2013, 1:04:42 AM
+	Author     : Swashata
+	Description:
+		Populates the theme ui-darkness, for IPT_FSQM_Pro
+*/
+
+/* Text Icons */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_text_icon {
+	background-color: #333333;
+	color: #ffaf0f;
+	text-shadow: none;
+	border-color: #666666;
+}
+
+/*==============================================================================
+ * Typography
+ *============================================================================*/
+
+/* Heading & Paragraph */
+.ipt_uif_common.ipt-uif-custom-ui-darkness {
+	color: #ffaf0f;
+}
+/* Anchors */
+.ipt_uif_common.ipt-uif-custom-ui-darkness a:active,
+.ipt_uif_common.ipt-uif-custom-ui-darkness a:visited,
+.ipt_uif_common.ipt-uif-custom-ui-darkness a:focus,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-widget-content a:active,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-widget-content a:visited,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-widget-content a:focus {
+	color: #59b4d4;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness a,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-widget-content a {
+	color: #59b4d4;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness a:hover,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-widget-content a:hover {
+	color: #f58400;
+}
+
+/*==============================================================================
+ * Tabs
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span {
+	color: #fff;
+}
+
+/*==============================================================================
+ * Main Heading & Dividers
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider:before {
+	background-color: #8c8c8c;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider span.ipt_uif_divider_text {
+	color: #59b4d4;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider span.ipt_uif_divider_text:before,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider span.ipt_uif_divider_text:after {
+	background-color: #8c8c8c;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider span.ipt_uif_divider_text .ipt_uif_text_icon {
+	text-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider span.ipt_uif_divider_text span.subtitle {
+	color: #ffaf0f;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	background: #000;
+	color: #cc8c0c;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text {
+	color: #59b4d4;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #666666;
+	border-color: #666666;
+	color: #000;
+	text-shadow: none;
+}
+
+/*==============================================================================
+ * Container
+ *============================================================================*/
+/* Widget Boxes */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_widget_box .ui-widget-header h3 {
+	color: #fff;
+	text-shadow: none;
+}
+/* Boxes */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_shadow {
+	-webkit-box-shadow: 0 0 4px #fff;
+	box-shadow: 0 0 4px #fff;
+	background-color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_box.colored {
+	background-color: #0078a3;
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_box.white {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+/* Fancy box */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_fancy_container {
+	border-color: #555555;
+	background-color: #666666;
+	background-image: none;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_fancy_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #ffaf0f;
+}
+
+/* Normal Container */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container {
+
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_container_head {
+	background-color: #333333;
+	border-color: #555555;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_container_inner {
+	border-color: #555555;
+	background-color: #666666;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_container_head,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_container_head h3,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_container_head a {
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_container_head span.ipt_uif_text_icon {
+	color: #f58400;
+}
+
+/* Collapsible */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_collapsible > .ipt_uif_container_head {
+	background-color: #666666;
+	background-image: -webkit-linear-gradient(top, #666666, #555555);
+	background-image: -moz-linear-gradient(top, #666666, #555555);
+	background-image: -o-linear-gradient(top, #666666, #555555);
+	background-image: -ms-linear-gradient(top, #666666, #555555);
+	background-image: linear-gradient(top, #666666, #555555);
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_collapsible > .ipt_uif_container_head:after {
+	background-color: #333333;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_collapsible > .ipt_uif_container_head a {
+	color: #fff;
+	text-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head a {
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+
+/*==============================================================================
+ * UL Menu
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness ul.ipt_uif_ul_menu li a.ui-button {
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness ul.ipt_uif_ul_menu li a.ui-button:hover {
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness ul.ipt_uif_ul_menu li a.ui-button:active {
+	color: #fff;
+	text-shadow: none;
+}
+
+/*==============================================================================
+ * Image Slider - nivoSlider
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_image_slider_wrap .ribbon {
+	-webkit-box-shadow: 0 3px 2px #0078a3;
+	box-shadow: 0 3px 2px #0078a3;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .theme-ipt-uif-imageslider .nivo-directionNav a {
+	color: #ffaf0f;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .theme-ipt-uif-imageslider .nivo-directionNav a:hover {
+	color: #f58400;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .theme-ipt-uif-imageslider .nivo-directionNav a:active {
+	color: #0078a3;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .theme-ipt-uif-imageslider .nivo-controlNav a {
+	color: #ffaf0f;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .theme-ipt-uif-imageslider .nivo-controlNav a:hover {
+	color: #f58400;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .theme-ipt-uif-imageslider .nivo-controlNav a:active {
+	color: #0078a3;
+}
+/*==============================================================================
+ * Matrix
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_matrix_container {
+	border-color: #555555;
+	background-color: #6d6d6d;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_matrix td,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_matrix th {
+	border-right-color: #555555;
+	border-bottom-color: #555555;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_matrix thead th,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_matrix tfoot th,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_matrix tbody th {
+	color: #fff;
+}
+
+/*==============================================================================
+ * Label and Element
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_required {
+	color: #0078a3;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #59b4d4;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #0078a3;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_fancy_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_icon_and_form_elem_holder .ipt_uif_text_icon {
+	color: #ffaf0f;
+	text-shadow: none;
+}
+/*==============================================================================
+ * UI Form Elements
+ *============================================================================*/
+/* Radio Group */
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_radio + label:before,
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_radio + label:after {
+	background-color: #fff;
+	border-color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_radio:checked + label:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#555555));
+	background-image: -webkit-linear-gradient(top, #666666, #555555);
+	background-image:    -moz-linear-gradient(top, #666666, #555555);
+	background-image:     -ms-linear-gradient(top, #666666, #555555);
+	background-image:      -o-linear-gradient(top, #666666, #555555);
+	background-color: #666666;
+	color: #fff;
+}
+/* Checkbox Group */
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_checkbox + label:before,
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_checkbox + label:after {
+	border-color: #000;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_checkbox:checked + label:after {
+	background-color: #666666;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#555555));
+	background-image: -webkit-linear-gradient(top, #666666, #555555);
+	background-image:    -moz-linear-gradient(top, #666666, #555555);
+	background-image:     -ms-linear-gradient(top, #666666, #555555);
+	background-image:      -o-linear-gradient(top, #666666, #555555);
+	color: #fff;
+}
+
+/* Toggle Button */
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_switch + label:before,
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_switch + label:after {
+	color: #fff;
+	background-color: #666666;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#555555));
+	background-image: -webkit-linear-gradient(top, #666666, #555555);
+	background-image:    -moz-linear-gradient(top, #666666, #555555);
+	background-image:     -ms-linear-gradient(top, #666666, #555555);
+	background-image:      -o-linear-gradient(top, #666666, #555555);
+	border-radius: 17px;
+	-webkit-box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.5);
+	border-bottom-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_switch + label:after {
+	background-color: #000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#353535), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #000, #353535);
+	background-image:    -moz-linear-gradient(bottom, #000, #353535);
+	background-image:     -ms-linear-gradient(bottom, #000, #353535);
+	background-image:      -o-linear-gradient(bottom, #000, #353535);
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_switch:checked + label:after {
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#b1b1b2));
+	background-image: -webkit-linear-gradient(top, #fff, #b1b1b2);
+	background-image:    -moz-linear-gradient(top, #fff, #b1b1b2);
+	background-image:     -ms-linear-gradient(top, #fff, #b1b1b2);
+	background-image:      -o-linear-gradient(top, #fff, #b1b1b2);
+}
+/* Ratings */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating input.ipt_uif_radio:checked + label:after {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#555555));
+	background-image: -webkit-linear-gradient(top, #666666, #555555);
+	background-image:    -moz-linear-gradient(top, #666666, #555555);
+	background-image:     -ms-linear-gradient(top, #666666, #555555);
+	background-image:      -o-linear-gradient(top, #666666, #555555);
+	background-color: #666666;
+}
+
+/* Star Ratings */
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:before {
+	color: #ffaf0f;
+	border: 0 none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after {
+	color: #ffaf0f;
+}
+
+/* Text input */
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_text {
+	border-color: #555;
+	background-color: #666;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness input.ipt_uif_text:focus {
+	border-color: #59b4d4;
+	background-color: #666;
+	-webkit-box-shadow: 0 0 4px #59b4d4;
+	box-shadow: 0 0 4px #59b4d4;
+}
+
+/* Text Area */
+.ipt_uif_common.ipt-uif-custom-ui-darkness textarea.ipt_uif_textarea {
+	border-color: #555;
+	background-color: #666;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness textarea.ipt_uif_textarea:focus {
+	border-color: #59b4d4;
+	background-color: #666;
+	-webkit-box-shadow: 0 0 4px #59b4d4;
+	box-shadow: 0 0 4px #59b4d4;
+}
+
+/* Select */
+.ipt_uif_common.ipt-uif-custom-ui-darkness select.ipt_uif_select {
+	border-color: #555;
+	background-color: #666;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness select.ipt_uif_select:focus {
+	border-color: #59b4d4;
+	background-color: #666;
+	-webkit-box-shadow: 0 0 4px #59b4d4;
+	box-shadow: 0 0 4px #59b4d4;
+}
+
+/*==============================================================================
+ * jQuery UI Sliders & Ranges
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_slider_count {
+	color: #ffaf0f;
+}
+
+/*==============================================================================
+ * jQuery UI Spinners
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-spinner a.ui-spinner-button {
+	border-left-color: #555;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ui-spinner a.ui-spinner-button:hover {
+	border-color: #666;
+}
+/*==============================================================================
+ * Sortables
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_sortme {
+	border-color: #555;
+	background-color: #666666;
+	background-image: -webkit-linear-gradient(top, #666666, #555555);
+	background-image: -moz-linear-gradient(top, #666666, #555555);
+	background-image: -o-linear-gradient(top, #666666, #555555);
+	background-image: -ms-linear-gradient(top, #666666, #555555);
+	background-image: linear-gradient(top, #666666, #555555);
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_sortme_placeholder {
+	border-color: #f58400;
+	background-color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_sortme .ipt_uif_sorting_handle {
+	background-color: #333333;
+	color: #f58400;
+	text-shadow: 0 0 1px #fff;
+	border-color: #666666;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_sortme .ipt_uif_sorting_handle .ipt_uif_text_icon {
+	background: transparent;
+	border: 0 none;
+	background-image: none;
+	color: #f58400;
+}
+
+/*==============================================================================
+ * CSS 3 Spinner
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_uif_ajax_loader_inner {
+	background: transparent;
+	color: #f58400;
+}
+
+/*==============================================================================
+ * Preview Table
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview table {
+	border-color: #333333;
+}
+
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview thead th,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview tfoot th,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview tr.head th {
+	background-color: #666;
+	background-image: -webkit-linear-gradient(top, #666, #555);
+	background-image: -moz-linear-gradient(top, #666, #555);
+	background-image: -o-linear-gradient(top, #666, #555);
+	background-image: -ms-linear-gradient(top, #666, #555);
+	background-image: linear-gradient(top, #666, #555);
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview thead tr,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview tfoot tr {
+	border-color: #333333;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview tr,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview th,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview td {
+	border-color: #333333;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview .description {
+	color: #333333;
+}
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview thead .description,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview tfoot .description,
+.ipt_uif_common.ipt-uif-custom-ui-darkness .ipt_fsqm_preview tr.head .description {
+	color: #fff;
+}

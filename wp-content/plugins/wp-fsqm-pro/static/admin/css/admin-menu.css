@@ -1,0 +1,22 @@
+/**
+ * Admin Menu Style
+ * Just the logo
+ */
+
+#toplevel_page_ipt_fsqm_dashboard .wp-menu-image {
+    background: url("../images/fsqm-menu-button.png") no-repeat scroll center;
+    opacity: 0.7;
+    -webkit-background-size: 18px 18px;
+    -moz-background-size: 18px 18px;
+    background-size: 18px 18px;
+}
+#toplevel_page_ipt_fsqm_dashboard a.wp-menu-open .wp-menu-image,
+#toplevel_page_ipt_fsqm_dashboard a:hover .wp-menu-image {
+    opacity: 1;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #toplevel_page_ipt_fsqm_dashboard .wp-menu-image {
+        background-image: url("../images/fsqm-menu-button@2x.png");
+    }
+}
+

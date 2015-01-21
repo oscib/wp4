@@ -1,0 +1,521 @@
+/*
+	Document   : form
+	Created on : Aug 12, 2013, 1:04:42 AM
+	Author     : Swashata
+	Description:
+		Populates the theme le-frog, for IPT_FSQM_Pro
+*/
+/**
+ * Three Shades : #4eb305 #8bd83b #fff => For Anchors and heading and stuff
+ * Iconbox : Color: #285c00, Border: #8bd83b, Background 8bd83b => #4eb305, Shadow, #3f7506
+ * Divider : #baf15d
+ * UI White : #285c00 => For Divider BG & SCT Bg
+ * SCT : #77bf2f
+ * Heading Icon: Color: #285c00, Border: #8bd83b, Background #8bd83b, Shadow, #3f7506
+ * Heading Color: #8bd83b
+ * White : #94da4c => For Fancy Boxes & Matrix Containers
+ * Border : #5a9a1e => For Fancy Box Borders
+ * Container Bg: #94da4c => For Collapsible & IconBox
+ * Container Head: #8bd83b (Border) #fff (Text) #8bd83b (Non Collapsed) => For Collapsible & IconBox
+ * Container Border: => #8bd83b For Collapsible & IconBox
+ * Content Color : #fff, #8bd83b => Text & Primary Label
+ * Secondary : #4eb305 => Secondary Label
+ * Checkbox,Radio Border: #8bd83b
+ * Checkbox, Radio Gradient: #4ca20b => #8bd83b
+ * Checkbox Color: #fff
+ * Toggle Gradient: #8bd83b => #45930b
+ * Toggle Color: #fff
+ * Rating Color: #285c00
+ * TextBox Border: #8bd83b
+ * TextBox Background: #96dc4e
+ * TextBox Active Bg & Border: #8bd83b
+ * NivoSlider DirectionNav: #8bd83b
+ * NivoSlider Control Nav: Defaults to anchors
+ */
+
+/* Text Icons */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_text_icon {
+	background-color: #4eb305;
+	color: #285c00;
+	text-shadow: 0 0 1px #3f7506;
+	border-color: #8bd83b;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+}
+
+/*==============================================================================
+ * Typography
+ *============================================================================*/
+
+/* Heading & Paragraph */
+.ipt_uif_common.ipt-uif-custom-le-frog {
+	color: #fff;
+}
+/* Anchors */
+.ipt_uif_common.ipt-uif-custom-le-frog a:active,
+.ipt_uif_common.ipt-uif-custom-le-frog a:visited,
+.ipt_uif_common.ipt-uif-custom-le-frog a:focus,
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-widget-content a:active,
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-widget-content a:visited,
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-widget-content a:focus {
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog a,
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-widget-content a {
+	color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog a:hover,
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-widget-content a:hover {
+	color: #4eb305;
+}
+
+/*==============================================================================
+ * Tabs
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span {
+	color: #8bd83b;
+}
+
+/*==============================================================================
+ * Main Heading & Dividers
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider:before {
+	background-color: #baf15d;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider span.ipt_uif_divider_text {
+	color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider span.ipt_uif_divider_text:before,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider span.ipt_uif_divider_text:after {
+	background-color: #baf15d;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #4eb305;
+	color: #285c00;
+	text-shadow: 0 0 2px #3f7506;
+	border-color: #8bd83b;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider span.ipt_uif_divider_text span.subtitle {
+	color: #4eb305;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	background: #285c00;
+	color: #77bf2f;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text {
+	color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #4eb305;
+	color: #285c00;
+	text-shadow: 0 0 2px #3f7506;
+	border-color: #8bd83b;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+}
+
+/*==============================================================================
+ * Container
+ *============================================================================*/
+/* Widget Boxes */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_widget_box .ui-widget-header h3 {
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+}
+/* Boxes */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_shadow {
+	-webkit-box-shadow: 0 0 4px #666;
+	box-shadow: 0 0 4px #666;
+	background-color: #285c00;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_box.colored {
+	background-color: #91d748;
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_box.white {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+/* Fancy box */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_fancy_container {
+	border-color: #5a9a1e;
+	background-color: #94da4c;
+	background-image: none;
+}
+
+/* Normal Container */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container {
+
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container .ipt_uif_container_head {
+	background-color: #4eb305;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+	border-color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container .ipt_uif_container_inner {
+	border-color: #8bd83b;
+	background-color: #94da4c;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container .ipt_uif_container_head,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container .ipt_uif_container_head h3,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container .ipt_uif_container_head a {
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+
+/* Collapsible */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_collapsible > .ipt_uif_container_head {
+	background-color: #8bd83b;
+	background-image: none;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_collapsible > .ipt_uif_container_head:after {
+	background-color: #4eb305;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_collapsible > .ipt_uif_container_head a {
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head a {
+	color: #fff;
+}
+
+/*==============================================================================
+ * UL Menu
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog ul.ipt_uif_ul_menu li a.ui-button {
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog ul.ipt_uif_ul_menu li a.ui-button:hover {
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog ul.ipt_uif_ul_menu li a.ui-button:active {
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+
+/*==============================================================================
+ * Image Slider - nivoSlider
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_image_slider_wrap .ribbon {
+	-webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.7);
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .theme-ipt-uif-imageslider .nivo-directionNav a {
+	color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .theme-ipt-uif-imageslider .nivo-directionNav a:hover {
+	color: #45930b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .theme-ipt-uif-imageslider .nivo-directionNav a:active {
+	color: #4ca20b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .theme-ipt-uif-imageslider .nivo-controlNav a {
+	color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .theme-ipt-uif-imageslider .nivo-controlNav a:hover {
+	color: #45930b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .theme-ipt-uif-imageslider .nivo-controlNav a:active {
+	color: #4ca20b;
+}
+/*==============================================================================
+ * Matrix
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_matrix_container {
+	border-color: #5a9a1e;
+	background-color: #94da4c;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_matrix td,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_matrix th {
+	border-right-color: #5a9a1e;
+	border-bottom-color: #5a9a1e;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_matrix thead th,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_matrix tfoot th,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_matrix tbody th {
+	color: #fff;
+}
+
+/*==============================================================================
+ * Label and Element
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_required {
+	color: #4eb305;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #4eb305;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_icon_and_form_elem_holder .ipt_uif_text_icon {
+	background-color: #4eb305;
+	color: #285c00;
+	text-shadow: 0 0 1px #3f7506;
+	border-color: #8bd83b;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_fancy_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #285c00;
+}
+/*==============================================================================
+ * UI Form Elements
+ *============================================================================*/
+/* Radio Group */
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_radio + label:before,
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_radio + label:after {
+	background-color: #fff;
+	border-color: #285c00;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_radio:checked + label:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4ca20b), to(#8bd83b));
+	background-image: -webkit-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:    -moz-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:     -ms-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:      -o-linear-gradient(top, #4ca20b, #8bd83b);
+	background-color: #4ca20b;
+	color: #fff;
+}
+/* Checkbox Group */
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_checkbox + label:before,
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_checkbox + label:after {
+	border-color: #285c00;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_checkbox:checked + label:after {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4ca20b), to(#8bd83b));
+	background-image: -webkit-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:    -moz-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:     -ms-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:      -o-linear-gradient(top, #4ca20b, #8bd83b);
+	background-color: #4ca20b;
+	color: #fff;
+}
+
+/* Toggle Button */
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_switch + label:before,
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_switch + label:after {
+	color: #fff;
+	background-color: #45930b;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8bd83b), to(#45930b));
+	background-image: -webkit-linear-gradient(top, #8bd83b, #45930b);
+	background-image:    -moz-linear-gradient(top, #8bd83b, #45930b);
+	background-image:     -ms-linear-gradient(top, #8bd83b, #45930b);
+	background-image:      -o-linear-gradient(top, #8bd83b, #45930b);
+	border-radius: 17px;
+	-webkit-box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	border-bottom-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_switch + label:after {
+	background-color: #000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#353535), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #000, #353535);
+	background-image:    -moz-linear-gradient(bottom, #000, #353535);
+	background-image:     -ms-linear-gradient(bottom, #000, #353535);
+	background-image:      -o-linear-gradient(bottom, #000, #353535);
+}
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_switch:checked + label:after {
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#b1b1b2));
+	background-image: -webkit-linear-gradient(top, #fff, #b1b1b2);
+	background-image:    -moz-linear-gradient(top, #fff, #b1b1b2);
+	background-image:     -ms-linear-gradient(top, #fff, #b1b1b2);
+	background-image:      -o-linear-gradient(top, #fff, #b1b1b2);
+}
+/* Ratings */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating input.ipt_uif_radio:checked + label:after {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4ca20b), to(#8bd83b));
+	background-image: -webkit-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:    -moz-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:     -ms-linear-gradient(top, #4ca20b, #8bd83b);
+	background-image:      -o-linear-gradient(top, #4ca20b, #8bd83b);
+	background-color: #4ca20b;
+}
+
+/* Star Ratings */
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:before {
+	color: #285c00;
+	border: 0 none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after {
+	color: #285c00;
+}
+
+/* Text input */
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_text {
+	border-color: #8bd83b;
+	background-color: #96dc4e;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog input.ipt_uif_text:focus {
+	border-color: #8bd83b;
+	background-color: #96dc4e;
+	-webkit-box-shadow: 0 0 4px #8bd83b;
+	box-shadow: 0 0 4px #8bd83b;
+}
+
+/* Text Area */
+.ipt_uif_common.ipt-uif-custom-le-frog textarea.ipt_uif_textarea {
+	border-color: #8bd83b;
+	background-color: #96dc4e;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog textarea.ipt_uif_textarea:focus {
+	border-color: #8bd83b;
+	background-color: #96dc4e;
+	-webkit-box-shadow: 0 0 4px #8bd83b;
+	box-shadow: 0 0 4px #8bd83b;
+}
+
+/* Select */
+.ipt_uif_common.ipt-uif-custom-le-frog select.ipt_uif_select {
+	border-color: #8bd83b;
+	background-color: #96dc4e;
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog select.ipt_uif_select:focus {
+	border-color: #8bd83b;
+	background-color: #96dc4e;
+	-webkit-box-shadow: 0 0 4px #8bd83b;
+	box-shadow: 0 0 4px #8bd83b;
+}
+
+/*==============================================================================
+ * jQuery UI Sliders & Ranges
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_slider_count {
+	color: #fff;
+}
+
+/*==============================================================================
+ * jQuery UI Spinners
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-spinner a.ui-spinner-button {
+	border-left-color: #8bd83b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ui-spinner a.ui-spinner-button:hover {
+	border-color: #72b42d;
+}
+/*==============================================================================
+ * Sortables
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_sortme {
+	border-color: #285c00;
+	background-color: #94da4c;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_sortme_placeholder {
+	border-color: #285c00;
+	background-color: #94da4c;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_sortme .ipt_uif_sorting_handle {
+	background-color: #4eb305;
+	color: #285c00;
+	text-shadow: 0 0 1px #3f7506;
+	border-color: #8bd83b;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_sortme .ipt_uif_sorting_handle .ipt_uif_text_icon {
+	background: transparent;
+	border: 0 none;
+	background-image: none;
+}
+
+/*==============================================================================
+ * CSS 3 Spinner
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_uif_ajax_loader_inner {
+	background: transparent;
+	color: #285c00;
+}
+
+/*==============================================================================
+ * Preview Table
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview table {
+	border-color: #285c00;
+}
+
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview thead th,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview tfoot th,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview tr.head th {
+	background-color: #4eb305;
+	background-image: -webkit-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -moz-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -o-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: -ms-linear-gradient(top, #8bd83b, #4eb305);
+	background-image: linear-gradient(top, #8bd83b, #4eb305);
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview thead tr,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview tfoot tr {
+	border-color: #285c00;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview tr,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview th,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview td {
+	border-color: #285c00;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview .description {
+	color: #45930b;
+}
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview thead .description,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview tfoot .description,
+.ipt_uif_common.ipt-uif-custom-le-frog .ipt_fsqm_preview tr.head .description {
+	color: #fff;
+}

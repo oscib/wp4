@@ -1,0 +1,440 @@
+= Proposed Features (Not yet implemented) =
+* Add: Centralized file management system
+* Add: Time limit type features for quiz
+* Add: Auto Save Option (both client side and server side)
+* Add: Auto update notification on dashboard
+* Add: Better looking Rating system with optional feedbacks
+* Add: Several new feedback elements
+= Version 2.4.0 =
+Changes:
+* Added: 5 new designer themes
+* Added: A new bootstrap theme
+* Added: Richtext description for all form elements
+* Added: Ability to align labels vertically
+* Added: Length validation for feedback small and feedback large elements
+* Added: Icons inside radio and checkboxes
+* Added: Prefix and Suffix for sliders and ranges
+* Added: Ability to hide form for user limitations
+* Added: Ability to show form only to logged in users and show login form or redirect for everyone else
+* Added: WayPoint animations to all form elements (optional)
+* Added: Better fontIconPicker in the backend
+* Added: 100 new handpicked Google WebFonts
+* Added: Ability to block from navigating to previous tab/page
+* Added: New Icon set with 850+ icons all categorized for easy browsing
+* Added: Hourly and first time nonce refresh via admin-ajax.php to support for caching
+* Added: Conditional logic to nested containers
+* Enhanced: Heading and dividers. Now they can be multiline with scroll to top properly aligned
+* Enhanced: Converted all sizes to ems which gives seemless resizing by just increasing the font size
+* Enhanced: Matrix labels can now support images
+* Enhanced: Rating stars will be animated on hover
+* Enhanced: Refresh iframes on tab/page show or conditional show, in order to prevent some maps related bugs
+* Enhanced: Do not consider score for conditionally hidden elements
+* Enhanced: Always reset the data for conditionally hidden elements
+* Enhanced: Form builder elements which are hidden will be grayed out
+* Fixed: Consider feedback score on generating designation etc during admin update
+* Fixed: Print related problems on Chrome
+* Fixed: Incorrect max upload size shown in the file uploader
+* Fixed: A situation when form validation will throw unnecessary error
+Under the hood:
+* Updated printElement script to v2.0.0
+* Changed the namespace of data-icon to data-ipt-icomoon for better compatibility
+* Changed the class of icons from icon- to ipt-icomoon-
+* Fixed an issue where invalid HTML in an element title could break the form builder
+* Refreshing iframes on show so that google maps does not look weird
+* Signature change for IPT_FSQM_Form_Elements_Data->validate_data_against_conditional_logic($element, $elem_key) Now key is required
+* Improved form data handling via AJAX and PHP. Now PHP post variable limit will hardly throw any error
+* Provided a JS API on the standalone page so that parent can communicate
+File Changes:
+* (Huge changes please reupload)
+/classes/*
+/lib/classes/*
+/lib/css/animate.css
+/lib/css/ipt-plugin-uif-admin.css
+/lib/css/ipt-plugin-uif-front.css
+/lib/css/icon*
+/lib/css/jquery.fonticon*
+/lib/fonts/*
+/lib/images/*
+/lib/js/*
+/static/* (Added 6 new themes)
+/*
+= Version 2.3.3 (21 April, 2014) =
+Changes:
+* Added: File Uploader Report & Analysis
+* Added: Preview link on View all Forms page (for quick previewing or copying the permalink of the form)
+* Fixed: Matrix element responsiveness
+Files Edited:
+/translations/*
+/ipt_fsqm.php
+/classes/class-ipt-fsqm-admin.php
+/classes/class-ipt-fsqm-form-elements-static.php
+/classes/class-ipt-fsqm-form-elements-utilities.php
+/classes/class-ipt-fsqm-form-elements-front.php
+/static/common/js/jquery.ipt-fsqm-report.js
+/lib/classes/class-ipt-plugin-uif-front.php
+/lib/css/ipt-plugin-uif-front.css
+= Version 2.3.2  (20 April, 2014) =
+Changes:
+* Added: Duplicate button on form builder
+* Added: A form export/import tool
+* Fixed: CSS compatibility with new WP 3.9 admin interface
+Under the hood:
+* Fixed: An issue when PHP would generata a notice if no files are uploaded
+Files Edited:
+/ipt_fsqm.php
+/classes/class-ipt-fsqm-admin.php
+/classes/class-ipt-fsqm-form-elements-admin.php
+/classes/class-ipt-fsqm-form-elements-static.php
+/lib/classes/class-ipt-plugin-uif-admin.php
+/lib/css/ipt-plugin-uif-admin.css
+/lib/js/jquery.ipt-plugin-uif-admin.js
+/translations/*
+= Version 2.3.1 (16 April, 2014) =
+Changes:
+* Fixed: An issue which would prevent submission of dropdown element with null selection (even if validation is set to false)
+* Fixed: An issue with the User Portal page
+Files Edited:
+/ipt_fsqm.php
+/lib/js/jquery.ipt-plugin-uif-front.js
+/classes/class-ipt-fsqm-form-elements-data.php
+= Version 2.3.0 (11 April, 2014) =
+Changes
+* Added: Classes for each of the form elements for easier CSS customization
+* Added: File Uploader with integration to WP Media
+* Added: Conditional Logic with grouping
+* Added: Form Builder will show element title (Admin UI)
+Under the hood:
+* Introduction to ipt_fsqm_hook_save_fileupload hook
+* Introduction to ipt_fsqm_files_blacklist filter (refer readme.txt)
+* All enqueues are now filtered so can be disabled programmatically
+* Added a new DB table for file management
+Files Edited:
+/ipt_fsqm.php
+/uninstall.php
+/translations/*
+/classes/*
+/lib/classes/*
+/lib/css/ipt-plugin-uif-*.css
+/lib/js/jquery.ipt-plugin-uif-*.js
+/lib/js/ (Added several new files)
+/static/front/css/form.css
+/static/front/js/jquery.ipt-fsqm-form.js
+
+= Version 2.2.6 (28 Jan, 2014) =
+Changes:
+* Added: Element type information to the form builder
+* Fixed: Support for special characters in First/Last name fields
+* Fixed: Minor bug causing PHP warning in PHP version 5.4
+* Added: Score for feedback elements
+* Added: Option for empty elements under dropdown select boxes
+Files Edited:
+/ipt_fsqm.php
+/translations/*
+/classes/class-ipt-fsqm-form-elements-base.php
+/classes/class-ipt-fsqm-form-elements-data.php
+/classes/class-ipt-fsqm-form-elements-front.php
+/classes/class-ipt-fsqm-form-elements-admin.php
+/classes/class-ipt-fsqm-form-elements-static.php
+/classes/class-ipt-fsqm-install.php
+/lib/classes/class-ipt-plugin-uif-base.php
+/lib/classes/class-ipt-plugin-uif-admin.php
+/lib/classes/class-ipt-plugin-uif-front.php
+= Version 2.2.5 (1 Nov, 2013) =
+Changes:
+* Fixed: Report & Analysis bug when some of the options are deleted from the form
+* Fixed: Form logo overflowing on print mode
+Files Edited:
+/ipt_fsqm.php
+/static/common/js/jquery.ipt-fsqm-report.js
+/static/common/css/ipt-fsqm-preview.css
+= Version 2.2.4 (30 Oct, 2013) =
+Changes:
+* Added: CSS compatibility with Bootstrap (now FSQM Pro will work seamlessly with any bootstrap theme)
+* Added: Date & Time picker formatting options
+* Added: Logo or header images for forms
+* Added: Submission limitation per registered user
+* Added: Icons to tabs or containers or pages
+* Added: Placeholder text for input and textarea
+* Added: Customizable icons for feedback and normal text inputs
+* Improved: Feedback text input can now have different validation filters
+* Improved: Moved ranking system to a Quiz Settings tab on the form builder
+            Coming next is more quiz related features
+* Improved: Added more icons to the icon selector
+* Improved: Responsiveness of tabbed forms
+* Fixed: Icon related bug (not showing up) on rich text element heading
+* Fixed: Rewrite rules not getting flushed properly on plugin update and/or installation
+* Fixed: Long heading will now be clipped when viewed on smaller devices
+Under the hood:
+* Added: Valid icon sets are now filtered
+* Added: Icon to image mapping API to IPT_Plugin_UIF_Base
+Files Edited:
+/ipt_fsqm.php
+/translations/*
+/classes/class-ipt-fsqm-form-elements-base.php
+/classes/class-ipt-fsqm-form-elements-data.php
+/classes/class-ipt-fsqm-form-elements-front.php
+/classes/class-ipt-fsqm-form-elements-admin.php
+/classes/class-ipt-fsqm-form-elements-static.php
+/classes/class-ipt-fsqm-install.php
+/lib/classes/class-ipt-plugin-uif-base.php
+/lib/classes/class-ipt-plugin-uif-admin.php
+/lib/classes/class-ipt-plugin-uif-front.php
+/lib/css/ipt-plugin-uif-front.css
+/lib/css/ie8.css
+/lib/js/jquery.ipt-plugin-uif-front.js
+/static/front/js/jquery.ipt-fsqm-form.js
+/static/front/css/form.css
+/static/common/css/ipt-fsqm-preview.css
+= Version 2.2.2 (3 Oct, 2013) =
+Changes:
+* Added: Ranking System based on score
+* Added: Format strings on success message. Now success message can be dynamic as well
+* Added: Option for ranking information on trackback page, email notifications and success message
+		 via format strings.
+* Added: Option to redirect top/parent window when loaded via iFrame
+* Improved: Trackback page now displays score with percentage
+* Improved: Format strings on user emails
+* Fixed: Button length error when in conflict with fontawesome CSS
+* Fixed: Accidentally left console.log on form jquery plugin
+* Fixed: Fatal error when copying form
+Under the hood:
+* Added: a new quiz element sample form during installation
+* Improved: IPT_FSQM_Form_Elements_Data APIs
+* Improved: Better redirection delay handling for erroneous values
+Files Edited:
+/ipt_fsqm.php
+/translations/*
+/classes/class-ipt-fsqm-form-elements-base.php
+/classes/class-ipt-fsqm-form-elements-data.php
+/classes/class-ipt-fsqm-form-elements-front.php
+/classes/class-ipt-fsqm-form-elements-admin.php
+/lib/css/ipt-plugin-uif-front.css
+/lib/css/ipt-plugin-uif-admin.css
+/classes/wp_fsq_form.php
+/static/front/js/jquery.ipt-fsqm-form.js
+= Version 2.2.0 (1 Oct, 2013) =
+Changes:
+* Added: Ability for users to edit their submissions based on admin given time limit
+* Added: Option to use user email as send to email for administrator notification
+* Added: Inbuilt support for SMTP mail, which ensures your email doesn't end up in spam
+* Added: Terms & Condition Phrase for forms
+* Added: i18n for jQuery Datepicker
+* Improved: User Portal Page with support for theming, avatar and ajaxed data fetching (multi paged)
+* Improved: DatePicker with WP locale for i18n
+* Fixed: Dashboard Statistics widget bug, when one of the widget won't populate any graph
+* Fixed: Password field not coming properly on some cases
+Under the hood:
+* Added: Password field to IPT_Plugin_UIF Admin Class (IPT_Plugin_UIF_Admin::password())
+* Improved: Form and Submission APIs to abstract database calls
+* Improved: Significant improvements on how non smtp emails are sent to the user
+			While changing the FROM and FROMNAME, we are now setting a header
+			Sender: <wordpress@yoursite.com>
+			to the email. This ensures your users do not get spoofed mail alert.
+			Also, this header is not added in case of SMTP email.
+* Improved: Form_Elements_Data class APIs
+* Improved: Form_Elements_Front class APIs
+* Improved: JS files for Plugins UIF (frontend and backend)
+Files Edited:
+/ipt_fsqm.php
+/classes/class-ipt-fsqm-admin.php
+/classes/class-ipt-fsqm-form-elements-static.php
+/classes/class-ipt-fsqm-form-elements-data.php
+/classes/class-ipt-fsqm-form-elements-front.php
+/classes/class-ipt-fsqm-form-elements-base.php
+/classes/class-ipt-fsqm-form-elements-admin.php
+/lib/classes/class-ipt-plugin-uif-base.php
+/lib/classes/class-ipt-plugin-uif-admin.php
+/lib/js/jquery.ipt-plugin-uif-admin.js
+/lib/js/jquery.ipt-plugin-uif-front.js
+/translations/*
+Files Added:
+/lib/js/jquery.dataTables.min.js
+/staitc/front/js/jquery.ipt-fsqm-user-portal.js
+/static/front/css/user-portal.css
+= Version 2.1.8 (25 Sep, 2013) =
+Changes:
+* Added: Score for Matrix Type Questions
+* Improved: Shortcode generator Wizard
+* Improved: Button appearance and some line-height issue
+* Fixed: Flush Rewrite Error on plugin activation or update
+Under the hood:
+* Improved: Better AJAX Error handling on report generation
+* Improved: Better AJAX Error handling on Dashboard Embed Code generator
+* Improved: Score handling for erroneous score values
+* Updated: Support forum links
+Files Edited:
+/lib/css/ipt-plugin-uif-front.css
+/static/common/js/jquery.ipt-fsqm-report.js
+/classes/class-ipt-fsqm-install.php
+/classes/class-ipt-fsqm-admin.php
+/classes/class-ipt-fsqm-loader.php
+/classes/class-ipt-fsqm-form-elements-data.php
+/classes/class-ipt-fsqm-form-elements-admin.php
+/classes/class-ipt-fsqm-form-elements-base.php
+/ipt_fsqm.php
+/translations/*
+= Version 2.1.6 (23 Sep, 2013) =
+Changes:
+* Added: Standalone forms with optional theming templates (please check documentation)
+* Improved: jQuery UI Spinners now have mousewheel even on frontend
+* Improved: DatePicker & Keyboard appearance
+* Improved: Error handling on admin section
+* Improved: Report Print button appearance on admin area
+* Improved: Compatibility with fontawesome CSS
+* Fixed: PHP Warning when Redirection based on score is selected, yet max score is 0
+Under the hood:
+* Added: IPT_Plugin_UIF_Admin::button now accepts icons and anchors
+* Improved: Default elements are now not replacable by external filters
+* Improved: IPT_Plugin_UI_Base will now give instance based on classname AND textdomain
+* Improved: Tighten capability check while saving a form builder from admin
+* Improved: AJAX Response for reports and form save will now come up with proper application/json header
+* Fixed: IPT_Plugin_UIF_Admin::hiddens() will now properly esc_attr attributes
+* Fixed: Logical error when calling wp_ajax hook for report generators
+Files Edited:
+/classes/class-ipt-fsqm-form-elements-base.php
+/classes/class-ipt-fsqm-form-elements-data.php
+/classes/class-ipt-fsqm-form-elements-front.php
+/classes/class-ipt-fsqm-form-elements-static.php
+/lib/classes/class-ipt-plugin-uif-base.php
+/lib/classes/class-ipt-plugin-uif-admin.php
+/lib/css/ipt-plugin-uif-admin.css
+/lib/css/ipt-plugin-uif-front.css
+/lib/js/jquery.ipt-plugin-uif-front.js
+/static/common/js/jquery.ipt-fsqm-report.js
+= Version 2.1.4 (18 Sep, 2013) =
+Changes
+* Added: Form Themes will show color blocks on admin panel
+* Added: Option to not to delete database and settings when uninstalling
+* Added: Option to restore default forms in case you want them back
+* Added: Ability to add custom CSS codes to any of the forms
+* Added: Auto Save for the Form Builder
+* Added: IE8 Support
+* Improved: Admin UI and default theme of the form
+* Improved: AJAX Loaders on admin UI as well as on all forms
+* Improved: System will automatically add "Untitled Form" to unnamed form as this is mandatory
+* Improved: The report for range will show an average sum-product for minimum and maximum
+* Improved: Overall appearance of the report table
+* Improved: Admin UI JS. Events are now delegated whenever possible
+* Improved: Admin Dashboard Latest Statistics widget
+* Fixed: Some HTML error on quick preview
+* Fixed: Font issue, body font not being applied correctly
+* Fixed: Invalid rowspan on some of the report tables
+* Fixed: A bug in the installation script which wouldn't let the plugin install on WordPress 3.5
+* Fixed: Some PHP Notice when generating reports. This would come if you've added some new elements
+  to a form and previous submissions wouldn't have any value.
+* Fixed: Some gettext calls where domain was not being passed.
+Under the hood:
+* Added: do action hooks to all enqueue calls
+* Improved: Better dealing with multisite installation and uninstallation
+* Fixed: Third party capability to hook into report generators
+Files Edited:
+/classes/*.php
+/lib/classes/*.php
+/lib/css/ipt-plugin-uif-admin.css
+/lib/css/ipt-plugin-uif-front.css
+/lib/js/jquery.ipt-plugin-uif-admin.js
+/lib/js/jquery.ipt-plugin-uif-front.js
+/static/common/js/jquery.ipt-fsqm-report.js
+/static/front/js/jquery.ipt-fsqm-form.js
+/static/front/css/ui-theme/*/form.css
+/static/front/css/form.css
+/uninstall.php
+/ipt_fsqm.php
+/translations/*
+= Version 2.1.2 (12 Sep, 2013) =
+Changes
+* Fixed: Renamed Icons element to Icons and Buttons element
+* Improved: Icons and Buttons appearances
+* Fixed: Collapsible elements nesting, where the nested element's head will not appear properly
+* Fixed: Collapsible elements logical error, when any required element, if nested inside a
+* 		 collapsed element, will get submitted, but the server will throw an error which
+* 		 would not be visible until someone expands the collapsed element. Now if any
+*		 collapsed element has required element, then it will be expanded on tabs change or submit
+* Fixed: Permission bug where authors could edit a submission
+* Fixed: Average calculation on report pages
+* Added: Option for MCQ Sorting elements to not to get shuffled
+* Added: Option to customize font size
+* Fixed: Dashboard page latest ten submissions form link will take to view all submissions page instead of form edit page. For users without capability (authors) it will not be linked.
+* Fixed: Trends and Report page Print button not fetching the class properly
+Under the hood:
+* Added: do action hook to all admin pages
+* Added: Filters to report and preview related buttons
+* Added: Third party capability to hook into report generators (both PHP & JS)
+* Added: Hooks to form_deleted, form_updated, form_created, submission_deleted
+Files Edited
+/classes/*.php
+/lib/classes/*.php
+/lib/css/ipt-plugin-uif-admin.css
+/lib/css/ipt-plugin-uif-front.css
+/lib/js/jquery.ipt-plugin-uif-admin.js
+/lib/js/jquery.ipt-plugin-uif-front.js
+/static/common/js/jquery.ipt-fsqm-report.js
+/static/front/js/jquery.ipt-fsqm-form.js
+/static/front/css/ui-theme/*/form.css
+/static/front/css/form.css
+/translations/*
+/ipt_fsqm.php
+Files Deleted
+/classes/deprecated.php
+/static/front/js/form.js
+/static/front/js/form_track.js
+/static/front/css/form.old.css
+/static/front/css/print.css
+
+= Version 2.1.0 (30 Aug, 2013) =
+* Complete rewrite of code
+* Please follow the update instruction carefully
+
+= Version 1.0.3 (22 Feb, 2012) =
+Changes
+* Fixed: Miscalculated others count on report page
+* Added: Now the survey report shows "Other" entries made by users
+* Added: Now the complete submission can be mailed to the admin
+* Added: Sending notifications to users can now be disabled by entering empty value to Notification Email under Form Customization Options
+* Added: Now admin can limit number of submissions per IP Address
+* Updated: Improved JavaScript for admin pages, mainly on Add New Form page
+* Updated: Year of copyright notice
+Files Edited
+/feedback_survey.php
+/changelog
+/classes/admin-class.php
+/classes/form-class.php
+/classes/install-class.php
+/static/admin/css/admin.css
+/static/admin/js/admin.js
+
+= Version 1.0.2 (30 Dec, 2012) =
+Changes
+* Fixed: MySQL bug that prevented creation of table since last update
+* Updated: Proper usage of $wpdb::prepare() according to API update since WP version 3.5
+Files Edited
+/changelog
+/feedback_survey.php
+/classes/admin-class.php
+/classes/install-class.php
+/classes/form-class.php
+
+= Version 1.0.1 (21 Dec, 2012) =
+Changes
+* Added: Shortcode ability to bypass tab type appearance
+* Added: Shortcode ability to modify Next, Previous and Submit button label
+* Added: Shortcode ability to modify Trends answer label
+* Fixed: error with Trends
+* Fixed: bug with non-required email address
+* Fixed: bug with 1 submission per email
+* Fixed: admin comment htmlspecialchars_decode error
+* Fixed: Now we allow HTML in freetype question description
+* Updated: Renamed "Feedback" to "Submission"
+* Updated: Proper pot file included inside /translations
+Files Edited
+/changelog
+/feedback_survey.php
+/classes/form-class.php
+/classes/loader.php
+/classes/admin-class.php
+/clases/install-class.php
+/static/front/js/form.js
+/translations/ipt_fsqm-en_US.pot
+
+= Version 1.0.0 (10 Oct, 2012) =
+* Public Release

@@ -1,0 +1,109 @@
+/*
+	Document   : Form
+	Created on : Aug 12, 2013, 12:37:53 AM
+	Author     : Swashata
+	Description:
+		Base style of forms
+*/
+@import url("http://fonts.googleapis.com/css?family=Oswald|Roboto:400,700,400italic,700italic");
+@import url("../../common/css/ipt-fsqm-preview.css?version=2.2.5");
+/*==============================================================================
+ * Font Family
+ *============================================================================*/
+body .ipt_uif_front,
+body .ipt_uif_front.ipt_uif_common .ui-widget,
+body .ipt_uif_front.ipt_uif_common .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span,
+body .ipt_uif_front.ipt_uif_common .ui-widget input,
+body .ipt_uif_front.ipt_uif_common .ui-widget select,
+body .ipt_uif_front.ipt_uif_common .ui-widget textarea,
+body .ipt_uif_front.ipt_uif_common .ui-widget button,
+body .ipt_uif_front.ipt_uif_common .ipt_uif_divider span.ipt_uif_divider_text span.subtitle,
+body .ipt_fsqm_preview {
+	font-family: 'Roboto', Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+body .ipt_uif_front h1,
+body .ipt_uif_front h2,
+body .ipt_uif_front h3,
+body .ipt_uif_front h4,
+body .ipt_uif_front h5,
+body .ipt_uif_front h6,
+body .ipt_fsqm_form_tabs .ui-tabs-nav,
+.ipt_uif_front .ipt_uif_matrix thead,
+.ipt_uif_front .ipt_uif_matrix th,
+body .ipt_fsqm_form_sda .ipt_fsqm_form_sda_head,
+body .ui-dialog .ui-dialog-title,
+body .ipt_uif_front ul.ipt_fsqm_form_ul_menu li a,
+body .ipt_uif_front .ipt_fsqm_form_message,
+body .ipt_uif_front .ipt_uif_tabs.ui-tabs .ui-tabs-nav li,
+body .ipt_uif_front .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_title,
+body .ipt_uif_front .ipt_uif_divider {
+	font-family: 'Oswald', 'Arial Narrow', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+body .ipt_uif_front,
+body .ipt_uif_front.ipt_uif_common .ui-widget {
+	font-size: 12px;
+}
+
+/*==============================================================================
+ * Paginated Type Tab
+ *============================================================================*/
+.ipt_uif_common.ipt_uif_front.ipt_fsqm_form.type_2 .ipt_fsqm_main_tab {
+	background-image: none;
+}
+.ipt_uif_front.ipt_uif_common.ipt_fsqm_form.type_2 .ipt_uif_tabs.ui-tabs.ipt_fsqm_main_tab .ipt_uif_tabs_toggler {
+	display: none;
+}
+
+/*==============================================================================
+ * Normal Wrapper
+ *============================================================================*/
+.ipt_uif_common.ipt_uif_front.ipt_fsqm_form .ui-widget-content.ipt_uif_mother_wrap {
+	background-image: none;
+}
+
+/*==============================================================================
+ * Terms & Conditions
+ *============================================================================*/
+.ipt_uif_front .ipt_fsqm_terms_wrap {
+	float: left;
+	margin: 20px 0;
+	width: 100%;
+	padding: 0;
+}
+
+/*==============================================================================
+ * Embeds
+ *============================================================================*/
+.ipt_uif_front .ipt_fsqm_embed {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+}
+.ipt_uif_front .ipt_fsqm_embed > iframe,
+.ipt_uif_front .ipt_fsqm_embed > object {
+	position: relative;
+	width: 100%;
+}
+
+/*==============================================================================
+ * Form Logo
+ *============================================================================*/
+body .ipt_uif_front .ipt_fsqm_form_logo {
+	margin: 10px auto 20px;
+	padding: 0;
+}
+body .ipt_uif_front .ipt_fsqm_form_logo img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	height: auto;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 0 none;
+}

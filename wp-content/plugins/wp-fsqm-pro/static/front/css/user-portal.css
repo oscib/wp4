@@ -1,0 +1,294 @@
+/*
+	Document   : User Portal
+	Created on : Oct 1, 2013
+	Author     : Swashata
+	Description:
+		Base style of user portal
+*/
+@import url("http://fonts.googleapis.com/css?family=Oswald|Roboto:400,700,400italic,700italic");
+/*==============================================================================
+ * Font Family
+ *============================================================================*/
+body .ipt_uif_front,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ui-widget,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ui-widget input,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ui-widget select,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ui-widget textarea,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ui-widget button,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ipt_uif_divider span.ipt_uif_divider_text span.subtitle,
+body .ipt_fsqm_preview {
+	font-family: 'Roboto', Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+body .ipt_uif_front h1,
+body .ipt_uif_front h2,
+body .ipt_uif_front h3,
+body .ipt_uif_front h4,
+body .ipt_uif_front h5,
+body .ipt_uif_front h6,
+body .ipt_fsqm_form_tabs .ui-tabs-nav,
+body .ipt_fsqm_form_sda .ipt_fsqm_form_sda_head,
+body .ui-dialog .ui-dialog-title,
+body .ipt_uif_front ul.ipt_fsqm_form_ul_menu li a,
+body .ipt_uif_front .ipt_fsqm_form_message,
+body .ipt_uif_front .ipt_uif_tabs.ui-tabs .ui-tabs-nav li,
+body .ipt_uif_front .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_title,
+body .ipt_uif_front .ipt_uif_divider {
+	font-family: 'Oswald', 'Arial Narrow', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+body .ipt_uif_front,
+body .ipt_uif_front.ipt_uif_common.ipt_uif_front .ui-widget {
+	font-size: 12px;
+}
+
+/*==============================================================================
+ * Normal Wrapper
+ *============================================================================*/
+.ipt_uif_common.ipt_uif_front .ipt_uif_up_main_container {
+	padding: 10px;
+}
+.ipt_uif_common.ipt_uif_front.ipt_fsqm_user_portal {
+	margin-bottom: 20px;
+}
+
+/*==============================================================================
+ * Welcome Area
+ *============================================================================*/
+ .ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome {
+	position: relative;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_profile {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_profile img {
+	border-radius: 100%;
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_welcome {
+	float: none;
+	overflow: hidden;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_toolbar {
+	float: left;
+	width: 100%;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_toolbar .ipt_uif_button_container {
+	float: right;
+	width: auto;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_toolbar .ipt_fsqm_up_meta {
+	float: left;
+	margin-right: 10px;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_toolbar .ipt_fsqm_up_meta h6 {
+	display: inline;
+	margin: 0 10px 0 0;
+	line-height: 3.9;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome h2 {
+	clear: none;
+	position: absolute;
+	top: 10px;
+	margin: 0;
+	padding: 0;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_msg {
+	clear: none;
+	position: absolute;
+	bottom: 10px;
+	margin: 0;
+	padding: 0;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_user_portal_welcome .ipt_fsqm_up_msg p {
+	margin: 0 0 5px 0;
+	line-height: 1.3;
+}
+.ipt_uif_common.ipt_uif_front .ipt_fsqm_up_pb {
+	clear: both;
+}
+
+/*==============================================================================
+ * Data Table
+ *============================================================================*/
+.ipt_uif_common.ipt_uif_front table.dataTable {
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+	border-collapse: separate;
+	color: inherit;
+	font-size: 1em;
+	vertical-align: middle;
+	border: 0 none;
+}
+
+.ipt_uif_common.ipt_uif_front table.dataTable thead,
+.ipt_uif_common.ipt_uif_front table.dataTable tfoot,
+.ipt_uif_common.ipt_uif_front table.dataTable tbody,
+.ipt_uif_common.ipt_uif_front table.dataTable tr {
+	border: 0 none;
+	border-collapse: separate;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tbody tr,
+.ipt_uif_common.ipt_uif_front table.dataTable th,
+.ipt_uif_common.ipt_uif_front table.dataTable td {
+	border: 1px solid rgba(0, 0, 0, 0.1) !important;
+	border-collapse: collapse;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable thead th {
+	padding: 5px;
+	cursor: pointer;
+	*cursor: hand;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tfoot th {
+	padding: 5px;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable thead th,
+.ipt_uif_common.ipt_uif_front table.dataTable tfoot th {
+	font-size: 1em;
+	font-weight: bold !important;
+	vertical-align: middle;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 2em;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tbody td {
+	padding: 10px;
+	border: 0 none;
+	vertical-align: middle;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tbody td:first-child {
+	font-weight: bold;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable td.center,
+.ipt_uif_common.ipt_uif_front table.dataTable td.dataTables_empty {
+	text-align: center;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_wrapper {
+	position: relative;
+	clear: both;
+	*zoom: 1;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_wrapper .ui-widget-header {
+	font-weight: normal;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_wrapper .ui-toolbar {
+	padding: 5px;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_length {
+	float: left;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_filter {
+	float: right;
+	text-align: right;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_info {
+	padding-top: 3px;
+	clear: both;
+	float: left;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_paginate {
+	float: right;
+	text-align: right;
+}
+.ipt_uif_common.ipt_uif_front .dataTables_paginate .ui-button {
+	margin-right: -0.1em !important;
+}
+.ipt_uif_common.ipt_uif_front .paging_two_button .ui-button {
+	float: left;
+	cursor: pointer;
+	* cursor: hand;
+}
+.ipt_uif_common.ipt_uif_front .paging_full_numbers .ui-button {
+	padding: 2px 6px;
+	margin: 0;
+	cursor: pointer;
+	* cursor: hand;
+	color: #333 !important;
+}
+.ipt_uif_common.ipt_uif_front .paginate_disabled_previous,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_previous,
+.ipt_uif_common.ipt_uif_front .paginate_disabled_next,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_next {
+	height: 19px;
+	float: left;
+	cursor: pointer;
+	*cursor: hand;
+	color: #111 !important;
+}
+.ipt_uif_common.ipt_uif_front .paginate_disabled_previous:hover,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_previous:hover,
+.ipt_uif_common.ipt_uif_front .paginate_disabled_next:hover,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_next:hover {
+	text-decoration: none !important;
+}
+.ipt_uif_common.ipt_uif_front .paginate_disabled_previous:active,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_previous:active,
+.ipt_uif_common.ipt_uif_front .paginate_disabled_next:active,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_next:active {
+	outline: none;
+}
+.ipt_uif_common.ipt_uif_front .paginate_disabled_previous,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_previous {
+	padding-left: 23px;
+}
+.ipt_uif_common.ipt_uif_front .paginate_disabled_next,
+.ipt_uif_common.ipt_uif_front .paginate_enabled_next {
+	padding-right: 23px;
+	margin-left: 10px;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable thead th div.DataTables_sort_wrapper {
+	position: relative;
+	padding-right: 20px;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable thead th div.DataTables_sort_wrapper span {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+}
+
+.ipt_uif_common.ipt_uif_front .dataTables_processing {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 70px;
+	margin-left: -125px;
+	margin-top: -35px;
+	padding: 0;
+	border: 0 none;
+	text-align: center;
+	background-color: transparent;
+}
+
+.ipt_uif_common.ipt_uif_front .dataTables_filter .ipt_uif_text,
+.ipt_uif_common.ipt_uif_front .dataTables_length .ipt_uif_select {
+	display: inline;
+	font-size: 0.8em;
+	height: 2.5em;
+	line-height: 1em;
+	width: auto;
+}
+.ipt_uif_common.ipt_uif_front .fg-toolbar {
+	font-size: 1.2em;
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tbody tr.odd {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tbody tr.even {
+	background-color: rgba(0, 0, 0, 0.04);
+}
+.ipt_uif_common.ipt_uif_front table.dataTable tbody td.ipt_fsqm_up_number {
+	text-align: right;
+}
+

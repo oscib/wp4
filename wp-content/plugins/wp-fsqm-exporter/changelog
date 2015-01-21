@@ -1,0 +1,23 @@
+= Version 1.1.0 =
+Changes:
+* Added: File Uploader on Reports and CSV exports (FSQM v2.3.0)
+* Fixed: Incorrect question order on persistent report
+* Added: Date information on feedback report
+Files Edited:
+/classes/class-ipt-fsqm-exp-export-api.php
+/classes/class-ipt-fsqm-exp-admin.php
+/classes/ipt-fsqm-exp-form-elements-export-raw.php
+/classes/ipt-fsqm-exp-form-elements-export-report.php
+/ipt_fsqm_exporter.php
+/translations/*
+= Version 1.0.1 =
+Changes:
+* Added: Download button option on User Portal Page for FSQM Pro v2.2.0
+* Added: Translation po file
+Files Edited:
+/classes/class-ipt-fsqm-exp-export-api.php
+/ipt_fsqm_exporter.php
+/translations/*
+
+= Version 1.0.0 =
+* Initial Release

@@ -1,0 +1,460 @@
+/*
+	Document   : form
+	Created on : Aug 12, 2013, 1:04:42 AM
+	Author     : Swashata
+	Description:
+		Populates the theme cupertino, for IPT_FSQM_Pro
+*/
+/**
+ * Three Shades : #aed0ea #3baae3 #2694e8 => For Anchors and heading and stuff
+ * Iconbox : Color: #000, Border: #74b2e2, Background #aed0ea, Shadow, #fff
+ * Divider : #b7e4f8
+ * UI White : #f2f5f7 => For Divider BG & SCT Bg
+ * SCT : #60b9e7
+ * Heading Icon: Color: #fff, Border: #2694e8, Background #2694e8, Shadow, #fff
+ * Heading Color: #2694e8
+ * White : #fff => For Fancy Boxes & Matrix Containers
+ * Border : #aed0ea => For Fancy Box Borders
+ * Container Bg: #ffffff => For Collapsible & IconBox
+ * Container Head: #aed0ea (Border) #282828 (Text) #fff (Non Collapsed) => For Collapsible & IconBox
+ * Container Border: => #74b2e2 For Collapsible & IconBox
+ * Content Color : #362b36 => Text & Primary Label
+ * Secondary : #3baae3 => Secondary Label
+ * Checkbox,Radio Border: #b2b2b2
+ * Checkbox, Radio Gradient: #3baae3 => #74b2e2
+ * Checkbox Color: #fff
+ * Toggle Gradient: #e4f1fb => #74b2e2
+ * Toggle Color: #fff
+ * Rating Color: #74b2e2
+ * TextBox Border: #d0e2f0
+ * TextBox Background: #ffffff
+ * TextBox Active Bg & Border: #aed0ea
+ * NivoSlider DirectionNav: #e4f1fb
+ * NivoSlider Control Nav: Defaults to anchors
+ */
+
+/* Text Icons */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_text_icon {
+	background-color: #aed0ea;
+	color: #000;
+	text-shadow: 0 0 1px #fff;
+	border-color: #74b2e2;
+}
+
+/*==============================================================================
+ * Typography
+ *============================================================================*/
+
+/* Heading & Paragraph */
+.ipt_uif_common.ipt-uif-custom-cupertino {
+	color: #362b36;
+}
+/* Anchors */
+.ipt_uif_common.ipt-uif-custom-cupertino a:active,
+.ipt_uif_common.ipt-uif-custom-cupertino a:visited,
+.ipt_uif_common.ipt-uif-custom-cupertino a:focus,
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-widget-content a:active,
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-widget-content a:visited,
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-widget-content a:focus {
+	color: #aed0ea;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino a,
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-widget-content a {
+	color: #3baae3;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino a:hover,
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-widget-content a:hover {
+	color: #2694e8;
+}
+
+/*==============================================================================
+ * Tabs
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span {
+	color: #2694e8;
+}
+
+/*==============================================================================
+ * Main Heading & Dividers
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider:before {
+	background-color: #b7e4f8;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider span.ipt_uif_divider_text:before,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider span.ipt_uif_divider_text:after {
+	background-color: #b7e4f8;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #aed0ea;
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+	border-color: #74b2e2;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider span.ipt_uif_divider_text span.subtitle {
+	color: #aed0ea;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	background: #f2f5f7;
+	color: #60b9e7;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text {
+	color: #2694e8;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #2694e8;
+	border-color: #2694e8;
+	color: #fff;
+	text-shadow: 0 0 1px rgba(255,255,255,0.7);
+}
+
+/*==============================================================================
+ * Container
+ *============================================================================*/
+/* Widget Boxes */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_widget_box .ui-widget-header h3 {
+	color: #222;
+	text-shadow: 0 0 2px #fff;
+}
+/* Boxes */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_shadow {
+	-webkit-box-shadow: 0 0 4px #666;
+	box-shadow: 0 0 4px #666;
+	background-color: #f2f5f7;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_box.colored {
+	background-color: #74b2e2;
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_box.white {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+/* Fancy box */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_fancy_container {
+	border-color: #aed0ea;
+	background-color: #fff;
+	background-image: none;
+}
+
+/* Normal Container */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_container {
+
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_container .ipt_uif_container_head {
+	background-color: #aed0ea;
+	border-color: #74b2e2;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_container .ipt_uif_container_inner {
+	border-color: #74b2e2;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_container .ipt_uif_container_head,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_container .ipt_uif_container_head h3,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_container .ipt_uif_container_head a {
+	color: #282828;
+	text-shadow: 0 0 2px #fff;
+}
+
+/* Collapsible */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_collapsible > .ipt_uif_container_head {
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_collapsible > .ipt_uif_container_head:after {
+	background-color: #aed0ea;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_collapsible > .ipt_uif_container_head a {
+	color: #232323;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head a {
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+
+/*==============================================================================
+ * UL Menu
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino ul.ipt_uif_ul_menu li a.ui-button {
+	color: #2694e8;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino ul.ipt_uif_ul_menu li a.ui-button:active {
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+
+/*==============================================================================
+ * Image Slider - nivoSlider
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_image_slider_wrap .ribbon {
+	-webkit-box-shadow: 0 3px 2px #333;
+	box-shadow: 0 3px 2px #333;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .theme-ipt-uif-imageslider .nivo-directionNav a {
+	color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .theme-ipt-uif-imageslider .nivo-directionNav a:hover {
+	color: #e4f1fb;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .theme-ipt-uif-imageslider .nivo-directionNav a:active {
+	color: #2694e8;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .theme-ipt-uif-imageslider .nivo-controlNav a {
+	color: #2694e8;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .theme-ipt-uif-imageslider .nivo-controlNav a:hover {
+	color: #74b2e2;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .theme-ipt-uif-imageslider .nivo-controlNav a:active {
+	color: #aed0ea;
+}
+/*==============================================================================
+ * Matrix
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_matrix_container {
+	border-color: #deedf7;
+	background-color: #ffffff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_matrix td,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_matrix th {
+	border-right-color: #aed0ea;
+	border-bottom-color: #aed0ea;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_matrix thead th,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_matrix tfoot th,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_matrix tbody th {
+	color: #232323;
+}
+
+/*==============================================================================
+ * Label and Element
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_required {
+	color: #3baae3;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #3baae3;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_icon_and_form_elem_holder .ipt_uif_text_icon {
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+/*==============================================================================
+ * UI Form Elements
+ *============================================================================*/
+/* Radio Group */
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_radio + label:before,
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_radio + label:after {
+	background-color: #fff;
+	border-color: #b2b2b2;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_radio:checked + label:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3baae3), to(#74b2e2));
+	background-image: -webkit-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:    -moz-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:     -ms-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:      -o-linear-gradient(top, #3baae3, #74b2e2);
+	background-color: #3baae3;
+	color: #fff;
+}
+/* Checkbox Group */
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_checkbox + label:before,
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_checkbox + label:after {
+	border-color: #b2b2b2;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_checkbox:checked + label:after {
+	background-color: #3baae3;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3baae3), to(#74b2e2));
+	background-image: -webkit-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:    -moz-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:     -ms-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:      -o-linear-gradient(top, #3baae3, #74b2e2);
+	color: #fff;
+}
+
+/* Toggle Button */
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_switch + label:before,
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_switch + label:after {
+	color: #fff;
+	background-color: #e4f1fb;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e4f1fb), to(#74b2e2));
+	background-image: -webkit-linear-gradient(top, #e4f1fb, #74b2e2);
+	background-image:    -moz-linear-gradient(top, #e4f1fb, #74b2e2);
+	background-image:     -ms-linear-gradient(top, #e4f1fb, #74b2e2);
+	background-image:      -o-linear-gradient(top, #e4f1fb, #74b2e2);
+	border-radius: 17px;
+	-webkit-box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	border-bottom-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_switch + label:after {
+	background-color: #000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#353535), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #000, #353535);
+	background-image:    -moz-linear-gradient(bottom, #000, #353535);
+	background-image:     -ms-linear-gradient(bottom, #000, #353535);
+	background-image:      -o-linear-gradient(bottom, #000, #353535);
+}
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_switch:checked + label:after {
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#b1b1b2));
+	background-image: -webkit-linear-gradient(top, #fff, #b1b1b2);
+	background-image:    -moz-linear-gradient(top, #fff, #b1b1b2);
+	background-image:     -ms-linear-gradient(top, #fff, #b1b1b2);
+	background-image:      -o-linear-gradient(top, #fff, #b1b1b2);
+}
+/* Ratings */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating input.ipt_uif_radio:checked + label:after {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3baae3), to(#74b2e2));
+	background-image: -webkit-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:    -moz-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:     -ms-linear-gradient(top, #3baae3, #74b2e2);
+	background-image:      -o-linear-gradient(top, #3baae3, #74b2e2);
+	background-color: #3baae3;
+}
+
+/* Star Ratings */
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:before {
+	color: #74b2e2;
+	border: 0 none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after {
+	color: #74b2e2;
+}
+
+/* Text input */
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_text {
+	border-color: #d0e2f0;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino input.ipt_uif_text:focus {
+	border-color: #aed0ea;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px #aed0ea;
+	box-shadow: 0 0 4px #aed0ea;
+}
+
+/* Text Area */
+.ipt_uif_common.ipt-uif-custom-cupertino textarea.ipt_uif_textarea {
+	border-color: #d0e2f0;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino textarea.ipt_uif_textarea:focus {
+	border-color: #aed0ea;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px #aed0ea;
+	box-shadow: 0 0 4px #aed0ea;
+}
+
+/* Select */
+.ipt_uif_common.ipt-uif-custom-cupertino select.ipt_uif_select {
+	border-color: #d0e2f0;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino select.ipt_uif_select:focus {
+	border-color: #aed0ea;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px #aed0ea;
+	box-shadow: 0 0 4px #aed0ea;
+}
+
+/*==============================================================================
+ * jQuery UI Sliders & Ranges
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_slider_count {
+	color: #2694e8;
+}
+
+/*==============================================================================
+ * jQuery UI Spinners
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-spinner a.ui-spinner-button {
+	border-left-color: #d0e2f0;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ui-spinner a.ui-spinner-button:hover {
+	border-color: #aed0ea;
+}
+/*==============================================================================
+ * Sortables
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_sortme {
+	border-color: #74b2e2;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_sortme_placeholder {
+	border-color: #74b2e2;
+	background-color: #fff;
+}
+
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_sortme .ipt_uif_sorting_handle {
+	background-color: #aed0ea;
+	border-color: #74b2e2;
+}
+
+/*==============================================================================
+ * CSS 3 Spinner
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_uif_ajax_loader_inner {
+	background-color: transparent;
+	color: #2694e8;
+}
+/*==============================================================================
+ * Preview Table
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview table {
+	border-color: #74b2e2;
+}
+
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview thead th,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview tfoot th,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview tr.head th {
+	background-color: #deedf7;
+	background-image: -webkit-linear-gradient(top, #deedf7, #aed0ea);
+	background-image: -moz-linear-gradient(top, #deedf7, #aed0ea);
+	background-image: -o-linear-gradient(top, #deedf7, #aed0ea);
+	background-image: -ms-linear-gradient(top, #deedf7, #aed0ea);
+	background-image: linear-gradient(top, #deedf7, #aed0ea);
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview thead tr,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview tfoot tr {
+	border-color: #74b2e2;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview tr,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview th,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview td {
+	border-color: #74b2e2;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview .description {
+	color: #2694e8;
+}
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview thead .description,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview tfoot .description,
+.ipt_uif_common.ipt-uif-custom-cupertino .ipt_fsqm_preview tr.head .description {
+	color: #000;
+}

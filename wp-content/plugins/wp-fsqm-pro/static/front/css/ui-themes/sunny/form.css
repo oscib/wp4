@@ -1,0 +1,454 @@
+/*
+	Document   : form
+	Created on : Aug 12, 2013, 1:04:42 AM
+	Author     : Swashata
+	Description:
+		Populates the theme sunny, for IPT_FSQM_Pro
+*/
+
+/* Text Icons */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_text_icon {
+	background-color: #a45b13;
+	color: #ffdd57;
+	text-shadow: none;
+	border-color: #764210;
+}
+
+/*==============================================================================
+ * Typography
+ *============================================================================*/
+
+/* Heading & Paragraph */
+.ipt_uif_common.ipt-uif-custom-sunny {
+	color: #383838;
+}
+/* Anchors */
+.ipt_uif_common.ipt-uif-custom-sunny a:active,
+.ipt_uif_common.ipt-uif-custom-sunny a:visited,
+.ipt_uif_common.ipt-uif-custom-sunny a:focus,
+.ipt_uif_common.ipt-uif-custom-sunny .ui-widget-content a:active,
+.ipt_uif_common.ipt-uif-custom-sunny .ui-widget-content a:visited,
+.ipt_uif_common.ipt-uif-custom-sunny .ui-widget-content a:focus {
+	color: #655e4e;
+}
+.ipt_uif_common.ipt-uif-custom-sunny a,
+.ipt_uif_common.ipt-uif-custom-sunny .ui-widget-content a {
+	color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny a:hover,
+.ipt_uif_common.ipt-uif-custom-sunny .ui-widget-content a:hover {
+	color: #655e4e;
+}
+
+/*==============================================================================
+ * Tabs
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span {
+	color: #a45b13;;
+}
+
+/*==============================================================================
+ * Main Heading & Dividers
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider:before {
+	background-color: #a17642;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider span.ipt_uif_divider_text {
+	color: #d19405;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider span.ipt_uif_divider_text:before,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider span.ipt_uif_divider_text:after {
+	background-color: #a17642;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider span.ipt_uif_divider_text .ipt_uif_text_icon {
+	text-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider span.ipt_uif_divider_text span.subtitle {
+	color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	background: #feeebd;
+	color: #a4997b;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text {
+	color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #655e4e;
+	border-color: #655e4e;
+	color: #feeebd;
+	text-shadow: none;
+}
+
+/*==============================================================================
+ * Container
+ *============================================================================*/
+/* Widget Boxes */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_widget_box .ui-widget-header h3 {
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+/* Boxes */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_shadow {
+	-webkit-box-shadow: 0 0 4px #666;
+	box-shadow: 0 0 4px #666;
+	background-color: #feeebd;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_box.colored {
+	background-color: #d19405;
+	color: #fff;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_box.white {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+/* Fancy box */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_fancy_container {
+	border-color: #d19405;
+	background-color: #ccc09c;
+	background-image: none;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_fancy_container input.ipt_uif_text {
+	background-color: #feeebd;
+}
+
+/* Normal Container */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_container {
+
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_container .ipt_uif_container_head {
+	background-color: #a45b13;
+	border-color: #764210;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_container .ipt_uif_container_inner {
+	border-color: #d19405;
+	background-color: #ccc09c;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_container .ipt_uif_container_head,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_container .ipt_uif_container_head h3,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_container .ipt_uif_container_head a {
+	color: #ffdd57;
+	text-shadow: none;
+}
+
+/* Collapsible */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_collapsible > .ipt_uif_container_head {
+	background-color: #ffdd57;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_collapsible > .ipt_uif_container_head:after {
+	background-color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_collapsible > .ipt_uif_container_head a {
+	color: #282828;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head a {
+	color: #ffdd57;
+	text-shadow: none;
+}
+
+/*==============================================================================
+ * UL Menu
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny ul.ipt_uif_ul_menu li a.ui-button {
+	color: #4c3000;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-sunny ul.ipt_uif_ul_menu li a.ui-button:hover {
+	color: #4c3000;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-sunny ul.ipt_uif_ul_menu li a.ui-button:active {
+	color: #0074c7;
+	text-shadow: none;
+}
+
+/*==============================================================================
+ * Image Slider - nivoSlider
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_image_slider_wrap .ribbon {
+	-webkit-box-shadow: 0 3px 2px #333;
+	box-shadow: 0 3px 2px #333;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .theme-ipt-uif-imageslider .nivo-directionNav a {
+	color: #fece2f;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .theme-ipt-uif-imageslider .nivo-directionNav a:hover {
+	color: #d19405;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .theme-ipt-uif-imageslider .nivo-directionNav a:active {
+	color: #d19405;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .theme-ipt-uif-imageslider .nivo-controlNav a {
+	color: #fece2f;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .theme-ipt-uif-imageslider .nivo-controlNav a:hover {
+	color: #d19405;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .theme-ipt-uif-imageslider .nivo-controlNav a:active {
+	color: #d19405;
+}
+/*==============================================================================
+ * Matrix
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_matrix_container {
+	border-color: #d19405;
+	background-color: #ccc09c;
+	color: #282828;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_matrix td,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_matrix th {
+	border-right-color: #feeebd;
+	border-bottom-color: #feeebd;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_matrix thead th,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_matrix tfoot th,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_matrix tbody th {
+	color: #232323;
+}
+
+/*==============================================================================
+ * Label and Element
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_required {
+	color: #817865;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #817865;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_icon_and_form_elem_holder .ipt_uif_text_icon {
+	text-shadow: none;
+}
+/*==============================================================================
+ * UI Form Elements
+ *============================================================================*/
+/* Radio Group */
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_radio + label:before,
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_radio + label:after {
+	background-color: #fff;
+	border-color: #d19405;
+}
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_radio:checked + label:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d19405), to(#fece2f));
+	background-image: -webkit-linear-gradient(top, #d19405, #fece2f);
+	background-image:    -moz-linear-gradient(top, #d19405, #fece2f);
+	background-image:     -ms-linear-gradient(top, #d19405, #fece2f);
+	background-image:      -o-linear-gradient(top, #d19405, #fece2f);
+	background-color: #d19405;
+	color: #fff;
+}
+/* Checkbox Group */
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_checkbox + label:before,
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_checkbox + label:after {
+	border-color: #d19405;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_checkbox:checked + label:after {
+	background-color: #d19405;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d19405), to(#fece2f));
+	background-image: -webkit-linear-gradient(top, #d19405, #fece2f);
+	background-image:    -moz-linear-gradient(top, #d19405, #fece2f);
+	background-image:     -ms-linear-gradient(top, #d19405, #fece2f);
+	background-image:      -o-linear-gradient(top, #d19405, #fece2f);
+	color: #fff;
+}
+
+/* Toggle Button */
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_switch + label:before,
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_switch + label:after {
+	color: #fff;
+	background-color: #fece2f;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fece2f), to(#d19405));
+	background-image: -webkit-linear-gradient(top, #fece2f, #d19405);
+	background-image:    -moz-linear-gradient(top, #fece2f, #d19405);
+	background-image:     -ms-linear-gradient(top, #fece2f, #d19405);
+	background-image:      -o-linear-gradient(top, #fece2f, #d19405);
+	border-radius: 17px;
+	-webkit-box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	border-bottom-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_switch + label:after {
+	background-color: #000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#353535), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #000, #353535);
+	background-image:    -moz-linear-gradient(bottom, #000, #353535);
+	background-image:     -ms-linear-gradient(bottom, #000, #353535);
+	background-image:      -o-linear-gradient(bottom, #000, #353535);
+}
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_switch:checked + label:after {
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#b1b1b2));
+	background-image: -webkit-linear-gradient(top, #fff, #b1b1b2);
+	background-image:    -moz-linear-gradient(top, #fff, #b1b1b2);
+	background-image:     -ms-linear-gradient(top, #fff, #b1b1b2);
+	background-image:      -o-linear-gradient(top, #fff, #b1b1b2);
+}
+/* Ratings */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating input.ipt_uif_radio:checked + label:after {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d19405), to(#fece2f));
+	background-image: -webkit-linear-gradient(top, #d19405, #fece2f);
+	background-image:    -moz-linear-gradient(top, #d19405, #fece2f);
+	background-image:     -ms-linear-gradient(top, #d19405, #fece2f);
+	background-image:      -o-linear-gradient(top, #d19405, #fece2f);
+	background-color: #d19405;
+}
+
+/* Star Ratings */
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:before {
+	color: #d19405;
+	border: 0 none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after {
+	color: #d19405;
+}
+
+/* Text input */
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_text {
+	border-color: #d19405;
+	background-color: #d0c4a0;
+	color: #232323;
+}
+.ipt_uif_common.ipt-uif-custom-sunny input.ipt_uif_text:focus {
+	border-color: #d19405;
+	background-color: #feeebd;
+	-webkit-box-shadow: 0 0 4px #d19405;
+	box-shadow: 0 0 4px #d19405;
+}
+
+/* Text Area */
+.ipt_uif_common.ipt-uif-custom-sunny textarea.ipt_uif_textarea {
+	border-color: #d19405;
+	background-color: #d0c4a0;
+	color: #232323;
+}
+.ipt_uif_common.ipt-uif-custom-sunny textarea.ipt_uif_textarea:focus {
+	border-color: #d19405;
+	background-color: #feeebd;
+	-webkit-box-shadow: 0 0 4px #d19405;
+	box-shadow: 0 0 4px #d19405;
+}
+
+/* Select */
+.ipt_uif_common.ipt-uif-custom-sunny select.ipt_uif_select {
+	border-color: #d19405;
+	background-color: #d0c4a0;
+	color: #232323;
+}
+.ipt_uif_common.ipt-uif-custom-sunny select.ipt_uif_select:focus {
+	border-color: #d19405;
+	background-color: #feeebd;
+	-webkit-box-shadow: 0 0 4px #d19405;
+	box-shadow: 0 0 4px #d19405;
+}
+
+/*==============================================================================
+ * jQuery UI Sliders & Ranges
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_slider_count {
+	color: #d19405;
+}
+
+/*==============================================================================
+ * jQuery UI Spinners
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ui-spinner a.ui-spinner-button {
+	border-left-color: #f2be62;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ui-spinner a.ui-spinner-button:hover {
+	border-color: #d19405;
+}
+/*==============================================================================
+ * Sortables
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_sortme {
+	border-color: #d19405;
+	background-color: #ffdd57;
+	color: #232323;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_sortme_placeholder {
+	border-color: #d19405;
+	background-color: #feeebd;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_sortme .ipt_uif_sorting_handle {
+	background-color: #a45b13;
+	border-color: #d19405;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_sortme .ipt_uif_sorting_handle .ipt_uif_text_icon {
+	background: transparent;
+	border: 0 none;
+	background-image: none;
+}
+
+/*==============================================================================
+ * CSS 3 Spinner
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_uif_ajax_loader_inner {
+	background: transparent;
+	color: #655e4e;
+}
+
+/*==============================================================================
+ * Preview Table
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview table {
+	border-color: #a45b13;
+}
+
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview thead th,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview tfoot th,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview tr.head th {
+	background-color: #fece2f;
+	background-image: -webkit-linear-gradient(top, #fece2f, #d19405);
+	background-image: -moz-linear-gradient(top, #fece2f, #d19405);
+	background-image: -o-linear-gradient(top, #fece2f, #d19405);
+	background-image: -ms-linear-gradient(top, #fece2f, #d19405);
+	background-image: linear-gradient(top, #fece2f, #d19405);
+	color: #333;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview thead tr,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview tfoot tr {
+	border-color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview tr,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview th,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview td {
+	border-color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview .description {
+	color: #a45b13;
+}
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview thead .description,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview tfoot .description,
+.ipt_uif_common.ipt-uif-custom-sunny .ipt_fsqm_preview tr.head .description {
+	color: #333;
+}

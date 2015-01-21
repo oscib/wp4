@@ -1,0 +1,10 @@
+/*
+    Document   : form.css
+    Created on : Aug 12, 2013, 1:04:42 AM
+    Author     : Swashata
+    Description:
+        Imports jQuery UI 1.10.3 styling along with FSQM theme styling
+*/
+@import url("jquery-ui-1.10.3.custom.min.css");
+@import url("../form.css");
+

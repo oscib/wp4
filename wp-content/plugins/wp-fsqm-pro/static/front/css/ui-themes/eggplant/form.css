@@ -1,0 +1,507 @@
+/*
+	Document   : form
+	Created on : Aug 12, 2013, 1:04:42 AM
+	Author     : Swashata
+	Description:
+		Populates the theme eggplant, for IPT_FSQM_Pro
+*/
+/**
+ * Three Shades : #dcd9de #eae6ea #d1c5d8 => For Anchors and heading and stuff
+ * Iconbox : Color: #7e7783, Border: #d4d1bf, Background #d1c5d8, Shadow, #fff
+ * Divider : #f8f7f8
+ * UI White : #3d3644 => For Divider BG & SCT Bg
+ * SCT : #b3a8ba
+ * Heading Icon: Color: #3d3644, Border: #d1c5d8, Background #d1c5d8, Shadow, none
+ * Heading Color: #dbd7dd
+ * White : #ebe7eb => For Fancy Boxes & Matrix Containers
+ * Border : #d4d1bf => For Fancy Box Borders
+ * Container Bg: #f3f0f3 => For Collapsible & IconBox
+ * Container Head: #d4d1bf (Border) #000 (Text) #dcd9de => #d1c5d8 (Non Collapsed), #dcd9de => #d1c5d8 (Collapsed) For Collapsible & IconBox
+ * Container Border: => #d4d1bf For Collapsible & IconBox
+ * Content Color : #fff, #d4d1bf => Text & Primary Label
+ * Secondary : #dcd9de => Secondary Label
+ * Checkbox,Radio Border: #b2b2b2
+ * Checkbox, Radio Gradient: #d1c5d8 => #
+ * Checkbox Color: #3d3644
+ * Toggle Gradient: #eae6ea => #d1c5d8
+ * Toggle Color: #fff
+ * Rating Color: #7e7783
+ * TextBox Border: #d4d1bf
+ * TextBox Background: #ebe7eb
+ * TextBox Active Bg & Border: #fff #5f5964
+ * NivoSlider DirectionNav: #fff
+ * NivoSlider Control Nav: #fff
+ */
+
+/* Text Icons */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_text_icon {
+	background-color: #d1c5d8;
+	background-image: -webkit-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -moz-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -o-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -ms-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: linear-gradient(top, #dcd9de, #d1c5d8);
+	color: #7e7783;
+	text-shadow: 0 0 1px #fff;
+	border-color: #d4d1bf;
+}
+
+/*==============================================================================
+ * Typography
+ *============================================================================*/
+
+/* Heading & Paragraph */
+.ipt_uif_common.ipt-uif-custom-eggplant {
+	color: #eae6ea;
+}
+/* Anchors */
+.ipt_uif_common.ipt-uif-custom-eggplant a:active,
+.ipt_uif_common.ipt-uif-custom-eggplant a:visited,
+.ipt_uif_common.ipt-uif-custom-eggplant a:focus,
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-widget-content a:active,
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-widget-content a:visited,
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-widget-content a:focus {
+	color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant a,
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-widget-content a {
+	color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant a:hover,
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-widget-content a:hover {
+	color: #d1c5d8;
+}
+
+/*==============================================================================
+ * Tabs
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_tabs.ui-tabs .ui-tabs-nav li a span {
+	color: #f8f7f8;
+}
+
+/*==============================================================================
+ * Main Heading & Dividers
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider:before {
+	background-color: #f8f7f8;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider span.ipt_uif_divider_text {
+	color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider span.ipt_uif_divider_text:before,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider span.ipt_uif_divider_text:after {
+	background-color: #f8f7f8;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #d1c5d8;
+	color: #7e7783;
+	text-shadow: 0 0 2px #fff;
+	border-color: #d4d1bf;
+	background-image: none;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider span.ipt_uif_divider_text span.subtitle {
+	color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider a.ipt_uif_scroll_to_top {
+	background: #3d3644;
+	color: #b3a8ba;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text {
+	color: #dbd7dd;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_divider.ipt_uif_heading span.ipt_uif_divider_text .ipt_uif_text_icon {
+	background-color: #d1c5d8;
+	color: #7e7783;
+	text-shadow: 0 0 2px #fff;
+	border-color: #d4d1bf;
+}
+
+/*==============================================================================
+ * Container
+ *============================================================================*/
+/* Widget Boxes */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_widget_box .ui-widget-header h3 {
+	color: #fff;
+	text-shadow: none;
+}
+/* Boxes */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_shadow {
+	-webkit-box-shadow: 0 0 4px #fff;
+	box-shadow: 0 0 4px #fff;
+	background-color: #e8e4e8;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_box.colored {
+	background-color: #dcd9de;
+	color: #665874;
+	text-shadow: 0 0 2px #888;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_box.white {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+/* Fancy box */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_fancy_container {
+	border-color: #d4d1bf;
+	background-color: #ebe7eb;
+	background-image: none;
+	color: #665874;
+}
+
+/* Normal Container */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container {
+	color: #665874;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container .ipt_uif_container_head {
+	background-color: #d1c5d8;
+	background-image: -webkit-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -moz-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -o-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -ms-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: linear-gradient(top, #dcd9de, #d1c5d8);
+	border-color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container .ipt_uif_container_inner {
+	border-color: #d4d1bf;
+	background-color: #f3f0f3;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container .ipt_uif_container_head,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container .ipt_uif_container_head h3,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container .ipt_uif_container_head a {
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+
+/* Collapsible */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_collapsible > .ipt_uif_container_head {
+	background-color: #fff;
+	background-image: none;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_collapsible > .ipt_uif_container_head:after {
+	background-color: #d1c5d8;
+	background-image: -webkit-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -moz-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -o-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: -ms-linear-gradient(top, #dcd9de, #d1c5d8);
+	background-image: linear-gradient(top, #dcd9de, #d1c5d8);
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_collapsible > .ipt_uif_container_head a {
+	color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_collapsible.ipt_uif_collapsible_open > .ipt_uif_container_head a {
+	color: #000;
+}
+
+/*==============================================================================
+ * UL Menu
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant ul.ipt_uif_ul_menu li a.ui-button {
+	background-color: #dcd9de;
+	color: #665874;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant ul.ipt_uif_ul_menu li a.ui-button:hover {
+	background-color: #eae6ea;
+	color: #665874;
+	text-shadow: 0 0 2px #fff;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant ul.ipt_uif_ul_menu li a.ui-button:active {
+	color: #fff;
+	text-shadow: none;
+}
+
+/*==============================================================================
+ * Image Slider - nivoSlider
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_image_slider_wrap .ribbon {
+	-webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.7);
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .theme-ipt-uif-imageslider .nivo-directionNav a {
+	color: #eae6ea;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .theme-ipt-uif-imageslider .nivo-directionNav a:hover {
+	color: #dcd9de;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .theme-ipt-uif-imageslider .nivo-directionNav a:active {
+	color: #d1c5d8;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .theme-ipt-uif-imageslider .nivo-controlNav a {
+	color: #eae6ea;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .theme-ipt-uif-imageslider .nivo-controlNav a:hover {
+	color: #dcd9de;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .theme-ipt-uif-imageslider .nivo-controlNav a:active {
+	color: #d1c5d8;
+}
+/*==============================================================================
+ * Matrix
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_matrix_container {
+	border-color: #d4d1bf;
+	background-color: #ebe7eb;
+	color: #3d3644;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_matrix td,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_matrix th {
+	border-right-color: #d4d1bf;
+	border-bottom-color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_matrix thead th,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_matrix tfoot th,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_matrix tbody th {
+	color: #000;
+}
+
+/*==============================================================================
+ * Label and Element
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_question .ipt_uif_question_label .ipt_uif_question_required {
+	color: #dcd9de;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_subtitle {
+	color: #dcd9de;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_icon_and_form_elem_holder .ipt_uif_text_icon {
+	background-color: #d1c5d8;
+	color: #7e7783;
+	text-shadow: 0 0 1px #fff;
+	border-color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_fancy_container .ipt_uif_question .ipt_uif_question_label label.ipt_uif_question_title {
+	color: #7e7783;
+}
+/*==============================================================================
+ * UI Form Elements
+ *============================================================================*/
+/* Radio Group */
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_radio + label:before,
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_radio + label:after {
+	background-color: #fff;
+	border-color: #b2b2b2;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_radio:checked + label:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1c5d8), to(#eae6ea));
+	background-image: -webkit-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:    -moz-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:     -ms-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:      -o-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-color: #d1c5d8;
+	color: #3d3644;
+}
+/* Checkbox Group */
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_checkbox + label:before,
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_checkbox + label:after {
+	border-color: #b2b2b2;
+	background-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_checkbox:checked + label:after {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1c5d8), to(#eae6ea));
+	background-image: -webkit-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:    -moz-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:     -ms-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:      -o-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-color: #d1c5d8;
+	color: #3d3644;
+}
+
+/* Toggle Button */
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_switch + label:before,
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_switch + label:after {
+	color: #3d3644;
+	background-color: #d1c5d8;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eae6ea), to(#d1c5d8));
+	background-image: -webkit-linear-gradient(top, #eae6ea, #d1c5d8);
+	background-image:    -moz-linear-gradient(top, #eae6ea, #d1c5d8);
+	background-image:     -ms-linear-gradient(top, #eae6ea, #d1c5d8);
+	background-image:      -o-linear-gradient(top, #eae6ea, #d1c5d8);
+	border-radius: 17px;
+	-webkit-box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 1px #fff, inset 2px 2px 2px rgba(0,0,0,0.7);
+	border-bottom-color: #fff;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_switch + label:after {
+	background-color: #000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#353535), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #000, #353535);
+	background-image:    -moz-linear-gradient(bottom, #000, #353535);
+	background-image:     -ms-linear-gradient(bottom, #000, #353535);
+	background-image:      -o-linear-gradient(bottom, #000, #353535);
+}
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_switch:checked + label:after {
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#b1b1b2));
+	background-image: -webkit-linear-gradient(top, #fff, #b1b1b2);
+	background-image:    -moz-linear-gradient(top, #fff, #b1b1b2);
+	background-image:     -ms-linear-gradient(top, #fff, #b1b1b2);
+	background-image:      -o-linear-gradient(top, #fff, #b1b1b2);
+}
+/* Ratings */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating input.ipt_uif_radio:checked + label:after {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating input.ipt_uif_radio.active + label:after,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating input.ipt_uif_radio.hover + label:after,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating input.ipt_uif_radio + label:hover:after {
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1c5d8), to(#eae6ea));
+	background-image: -webkit-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:    -moz-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:     -ms-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-image:      -o-linear-gradient(top, #d1c5d8, #eae6ea);
+	background-color: #d1c5d8;
+}
+
+/* Star Ratings */
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:before {
+	color: #7e7783;
+	border: 0 none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_rating.ipt_uif_rating_star input.ipt_uif_radio + label:after {
+	color: #7e7783;
+}
+
+/* Text input */
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_text {
+	border-color: #d4d1bf;
+	background-color: #ebe7eb;
+	color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant input.ipt_uif_text:focus {
+	border-color: #ebe7eb;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px #ebe7eb;
+	box-shadow: 0 0 4px #ebe7eb;
+}
+
+/* Text Area */
+.ipt_uif_common.ipt-uif-custom-eggplant textarea.ipt_uif_textarea {
+	border-color: #d4d1bf;
+	background-color: #ebe7eb;
+	color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant textarea.ipt_uif_textarea:focus {
+	border-color: #ebe7eb;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px #ebe7eb;
+	box-shadow: 0 0 4px #ebe7eb;
+}
+
+/* Select */
+.ipt_uif_common.ipt-uif-custom-eggplant select.ipt_uif_select {
+	border-color: #d4d1bf;
+	background-color: #ebe7eb;
+	color: #000;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant select.ipt_uif_select:focus {
+	border-color: #ebe7eb;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px #ebe7eb;
+	box-shadow: 0 0 4px #ebe7eb;
+}
+
+/*==============================================================================
+ * jQuery UI Sliders & Ranges
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_slider_count {
+	color: #7e7783;
+}
+
+/*==============================================================================
+ * jQuery UI Spinners
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-spinner a.ui-spinner-button {
+	border-left-color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ui-spinner a.ui-spinner-button:hover {
+	border-color: #d1c5d8;
+}
+/*==============================================================================
+ * Sortables
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_sortme {
+	border-color: #d4d1bf;
+	background-color: #f3f0f3;
+	color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_sortme_placeholder {
+	border-color: #d4d1bf;
+	background-color: #5f5964;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_sortme .ipt_uif_sorting_handle {
+	background-color: #d1c5d8;
+	color: #7e7783;
+	border-color: #d4d1bf;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_sortme .ipt_uif_sorting_handle .ipt_uif_text_icon {
+	background: transparent;
+	border: 0 none;
+	background-image: none;
+}
+
+/*==============================================================================
+ * CSS 3 Spinner
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_uif_ajax_loader_inner {
+	background: transparent;
+	color: #eae6ea;
+}
+
+/*==============================================================================
+ * Preview Table
+ *============================================================================*/
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview table {
+	border-color: #285c00;
+}
+
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview thead th,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview tfoot th,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview tr.head th {
+	background-color: #5f5964;
+	background-image: -webkit-linear-gradient(top, #7e7783, #5f5964);
+	background-image: -moz-linear-gradient(top, #7e7783, #5f5964);
+	background-image: -o-linear-gradient(top, #7e7783, #5f5964);
+	background-image: -ms-linear-gradient(top, #7e7783, #5f5964);
+	background-image: linear-gradient(top, #7e7783, #5f5964);
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview thead tr,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview tfoot tr {
+	border-color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview tr,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview th,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview td {
+	border-color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview .description {
+	color: #7e7783;
+}
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview thead .description,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview tfoot .description,
+.ipt_uif_common.ipt-uif-custom-eggplant .ipt_fsqm_preview tr.head .description {
+	color: #fff;
+}
