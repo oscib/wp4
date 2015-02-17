@@ -1,0 +1,19 @@
+
+
+Feb 03, 2015
+----------------------------------
+Version 1.0.1
+- update version on style.css file
+- update iwebtheme sync shortcodes plugin
+
+==> Uninstall & delete current iwebtheme sync shortcodes plugin, then do fresh install the plugin. You can also find included plugins in folder 'plugins' within main theme folder
+
+
+- update XML sample data ( Now available in 2 options: All content in single xml file or Separated xml files )
+
+
+Oct 03, 2014
+----------------------------------
+Version 1.0.0
+- Initial release
+
